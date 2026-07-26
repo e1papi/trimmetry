@@ -1,0 +1,40 @@
+:root {
+  --trimmetry-accent: #f05a47;
+  --trimmetry-accent-dark: #c53e30;
+}
+
+.bd-sidebar-primary .sidebar-header-items__center {
+  max-width: 100%;
+}
+
+.bd-sidebar-primary .navbar-brand img {
+  max-height: 96px;
+  width: auto;
+}
+
+a {
+  text-underline-offset: 0.15em;
+}
+
+.bd-content a,
+.toc-entry a.nav-link:hover,
+.nav-link:hover {
+  color: var(--trimmetry-accent-dark);
+}
+
+.bd-content h1 {
+  letter-spacing: -0.025em;
+}
+
+.admonition.tip {
+  border-color: var(--trimmetry-accent);
+}
+
+table.docutils {
+  width: 100%;
+}
+
+code.literal {
+  white-space: nowrap;
+}
+
