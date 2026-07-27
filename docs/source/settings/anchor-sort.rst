@@ -14,7 +14,7 @@ REVERSE
    Противоположный конец сегмента.
 
 AXIS
-   Выбирает Anchor по экстремуму вдоль основного ``AXIS``.
+   Выбирает Anchor по экстремуму вдоль ОСНОВНОГО ``AXIS``.
 
 .. image:: /_static/gifs/anchors-sort/anchor-sort-axis.gif
    :alt: anchor-axis-sort
