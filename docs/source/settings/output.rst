@@ -18,6 +18,11 @@ INVERT DIR
 решения: сегменты, которые алгоритм оставил бы без изменений, будут
 развёрнуты, и наоборот.
 
+.. image:: /_static/gifs/additional-settings/additional-settings-seg-dir.gif
+   :alt: seg-dir
+   :width: 100%
+   :align: center
+
 UV
 --
 
@@ -47,6 +52,11 @@ AUTO
    Grow/Trim или bounce развёрнуто.
 
 Координата U строится по точкам Profile, V — вдоль Path.
+
+.. image:: /_static/gifs/additional-settings/additional-settings-uv.gif
+   :alt: uv
+   :width: 100%
+   :align: center
 
 PHONG
 -----
