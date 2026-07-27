@@ -23,7 +23,10 @@ html_logo = "_static/LOGO.png"
 html_favicon = "_static/icon.png"
 html_static_path = ["_static"]
 html_css_files = ["trimmetry.css"]
-html_js_files = ["language-switcher.js"]
+html_context = {
+    "docs_language": language,
+    "docs_base_url": "https://e1papi.github.io/trimmetry",
+}
 
 html_theme_options = {
     "repository_url": "https://github.com/e1papi/trimmetry",

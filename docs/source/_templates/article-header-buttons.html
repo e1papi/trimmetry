@@ -1,0 +1,40 @@
+{% from "../macros/buttons.html" import render_funcs with context %}
+
+<div class="article-header-buttons">
+{%- for button in header_buttons -%}
+{% set btype = button.get("type") %}
+{% set bopts = button.copy() %}
+{% set _ = bopts.pop("type") %}
+{{ render_funcs[btype](**bopts) }}
+{%- endfor -%}
+
+{# Language button: switch to the same page in the other build. #}
+{% if docs_language == "ru" %}
+<a
+  class="btn btn-sm nav-link pst-navbar-icon trimmetry-language-button"
+  href="{{ docs_base_url }}/{{ pagename }}.html"
+  onclick="this.href = this.href.split('#')[0] + window.location.hash"
+  title="English version"
+  aria-label="Open this page in English"
+>
+  <i class="fa-solid fa-globe"></i>
+  <span>EN</span>
+</a>
+{% else %}
+<a
+  class="btn btn-sm nav-link pst-navbar-icon trimmetry-language-button"
+  href="{{ docs_base_url }}/ru/{{ pagename }}.html"
+  onclick="this.href = this.href.split('#')[0] + window.location.hash"
+  title="Русская версия"
+  aria-label="Открыть эту страницу на русском языке"
+>
+  <i class="fa-solid fa-globe"></i>
+  <span>RU</span>
+</a>
+{% endif %}
+
+{# Extra theme buttons #}
+{% include "theme-switcher.html" %}
+{% include "search-button.html" %}
+{% include "toggle-secondary-sidebar.html" %}
+</div>
