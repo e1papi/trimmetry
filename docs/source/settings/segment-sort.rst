@@ -43,11 +43,19 @@ OBJ
    :align: center
 
 MIRROR
-   Берёт элементы с начала и конца списка попарно, создавая зеркальную
-   последовательность.
+   Берёт элементы с начала и конца ИСХОДНОГО списка попарно, создавая зеркальную
+   последовательность. Т.е если изначальная последовательность сегментов имела кастомную индексацию,
+   то данный режим может работать некорректно. 
+   Ниже пример сортировки MIRROR при изначально корректной индексации
 
-.. image:: /_static/gifs/segment-sort/segment-mirror-dir.gif
+.. image:: /_static/gifs/segment-sort/segment-mirror.gif
    :alt: seg-mirror-sort
+   :width: 100%
+   :align: center
+
+Пример того, как можно воспроизвести поведение режима MIRROR используя режим REF OBJ
+.. image:: /_static/gifs/sort-mode/sort-mode-ref.gif
+   :alt: seg-ref-sort_fix
    :width: 100%
    :align: center
 
