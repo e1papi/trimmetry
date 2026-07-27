@@ -129,6 +129,13 @@ SPEED MOD
 
 ``TIME`` распределяет одинаковое время на группу, ``LENGTH`` учитывает
 её длину, ``MIX`` смешивает оба результата.
+Возможно не самый показательный пример, но тут видно,
+что на букву W в режиме ``LENGTH`` закладывается больше времени
+
+.. image:: /_static/gifs/speed-settings/speed-compare.gif
+      :alt: speed-compare
+      :width: 100%
+      :align: center
 
 OVERLAP
 ~~~~~~~
@@ -182,4 +189,14 @@ SPEED MODE
 BORDER CORRECTION
    Показывается только для ``OPEN FAKE``. В режиме ``ON`` применяется
    специальная коррекция крайних матриц и масштаба.
+
+.. image:: /_static/screens/BORDER_OFF.png
+   :alt: border off
+   :width: 100%
+   :align: center
+
+.. image:: /_static/screens/BORDER_ON.png
+   :alt: border on
+   :width: 100%
+   :align: center
 
