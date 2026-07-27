@@ -54,6 +54,7 @@ MIRROR
    :align: center
 
 Пример того, как можно воспроизвести поведение режима MIRROR используя режим REF OBJ
+
 .. image:: /_static/gifs/sort-mode/sort-mode-ref.gif
    :alt: seg-ref-sort_fix
    :width: 100%
