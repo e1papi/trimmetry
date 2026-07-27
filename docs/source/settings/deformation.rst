@@ -30,6 +30,11 @@ GLOBAL
    Переход привязан к общему прогрессу роста. При частичном Grow видна
    соответствующая часть полного градиента.
 
+.. image:: /_static/gifs/additional-settings/additional-settings-scale.gif
+   :alt: scale
+   :width: 100%
+   :align: center
+
 ROTATION
 --------
 
@@ -62,6 +67,11 @@ ROTATION DEFORM MODE
 ``LOCAL`` и ``GLOBAL`` работают аналогично режимам Scale: либо
 нормализуют вращение по видимой цепочке, либо привязывают его к общему
 прогрессу Grow.
+
+.. image:: /_static/gifs/additional-settings/additional-settings-rotation.gif
+   :alt: scale
+   :width: 100%
+   :align: center
 
 Практические сочетания
 ----------------------
