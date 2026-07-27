@@ -20,16 +20,36 @@ REVERS
 X / Y / Z
    Сортировка по координате центра сегмента вдоль выбранной мировой оси.
 
+.. image:: /_static/gifs/segment-sort/segment-axis.gif
+   :alt: seg-axis-sort
+   :width: 100%
+   :align: center
+
 CIRCLE
    Сортировка по полярному углу центра. ``CORRECTIONAL PLANE`` задаёт
    проекцию: XY, YZ или XZ.
 
+.. image:: /_static/gifs/segment-sort/segment-circle.gif
+   :alt: seg-circle-sort
+   :width: 100%
+   :align: center
+
 OBJ
    Сортировка по расстоянию от центра сегмента до ``REF OBJ``.
+
+.. image:: /_static/gifs/segment-sort/segment-ref-obj.gif
+   :alt: seg-ref-obj-sort
+   :width: 100%
+   :align: center
 
 MIRROR
    Берёт элементы с начала и конца списка попарно, создавая зеркальную
    последовательность.
+
+.. image:: /_static/gifs/segment-sort/segment-mirror-dir.gif
+   :alt: seg-mirror-sort
+   :width: 100%
+   :align: center
 
 INVERT
    Разворачивает итоговый список групп после основной сортировки.
@@ -47,12 +67,22 @@ GAP
    Объединяет каждые ``GAP + 1`` соседних групп в одну временную группу.
    Например, ``GAP = 1`` объединяет группы попарно.
 
+.. image:: /_static/gifs/segment-sort/segment-gap.gif
+   :alt: seg-gap
+   :width: 100%
+   :align: center
+
 ID OFFSET
    Циклически сдвигает отсортированный список. Положительный сдвиг
    переносит элементы с конца списка в начало.
 
 MIRROR DIR
    Меняет порядок левой и правой части каждой пары в режиме ``MIRROR``.
+
+.. image:: /_static/gifs/segment-sort/segment-mirror-dir.gif
+   :alt: seg-mirror-dir
+   :width: 100%
+   :align: center
 
 PAIRS
 -----
@@ -77,6 +107,11 @@ SEARCH RADIUS LOCAL / REAL
 MAX NEIG
    Максимальное число ближайших соседей, добавляемых для каждого сегмента.
 
+.. image:: /_static/gifs/segment-sort/segment-pair.gif
+   :alt: seg-pair
+   :width: 100%
+   :align: center
+
 ADD EXTRA и PAIR IDS
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -89,4 +124,9 @@ ADD EXTRA и PAIR IDS
 Числа — нулевые индексы сегментов. Запятая разделяет группы, знак ``+``
 объединяет индексы внутри группы. Пересекающиеся группы автоматически
 сливаются: ``0+1, 1+2`` превращается в одну группу ``0+1+2``.
+
+.. image:: /_static/gifs/segment-sort/segment-add-extra.gif
+   :alt: seg-add-extra
+   :width: 100%
+   :align: center
 
