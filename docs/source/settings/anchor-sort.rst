@@ -21,7 +21,7 @@ AXIS
    :align: center
 
 MIN/MAX
-   Выбирает минимальный или максимальный экстремум по !``CORRECTIONAL AXIS``!
+   Выбирает минимальный или максимальный экстремум по ! ``CORRECTIONAL AXIS`` !
 
 
 AXIS CENTRED
