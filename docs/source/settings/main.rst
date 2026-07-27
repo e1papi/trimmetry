@@ -138,7 +138,7 @@ OVERLAP
 следующие группы раньше.
 
 .. image:: /_static/gifs/speed-settings/speed-overlap.gif
-   :alt: overlap
+   :alt: режим overlap
    :width: 100%
    :align: center
 
