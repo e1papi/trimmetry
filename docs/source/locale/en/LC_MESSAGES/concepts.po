@@ -1,0 +1,137 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 21:58+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/concepts.rst:2
+msgid "Как устроена анимация"
+msgstr "How the animation works"
+
+#: ../../source/concepts.rst:5
+msgid "Диапазон Grow–Trim"
+msgstr "Grow–Trim range"
+
+#: ../../source/concepts.rst:7
+msgid "``GROW`` задаёт конец видимого интервала, а ``TRIM`` — его начало. При обычной работе видимая часть находится между этими двумя значениями."
+msgstr "``GROW`` sets the end of the visible interval, while ``TRIM`` sets its beginning. During normal operation, the visible portion lies between these two values."
+
+#: ../../source/concepts.rst:10
+msgid "Примеры:"
+msgstr "Examples:"
+
+#: ../../source/concepts.rst:15
+msgid "Grow"
+msgstr "Grow"
+
+#: ../../source/concepts.rst:16
+msgid "Trim"
+msgstr "Trim"
+
+#: ../../source/concepts.rst:17
+msgid "Результат"
+msgstr "Result"
+
+#: ../../source/concepts.rst:18 ../../source/concepts.rst:27
+#: ../../source/concepts.rst:28
+msgid "100%"
+msgstr "100%"
+
+#: ../../source/concepts.rst:19 ../../source/concepts.rst:22
+msgid "0%"
+msgstr "0%"
+
+#: ../../source/concepts.rst:20
+msgid "Полный диапазон."
+msgstr "The full range."
+
+#: ../../source/concepts.rst:21
+msgid "50%"
+msgstr "50%"
+
+#: ../../source/concepts.rst:23
+msgid "Первая половина роста."
+msgstr "The first half of the growth."
+
+#: ../../source/concepts.rst:24
+msgid "80%"
+msgstr "80%"
+
+#: ../../source/concepts.rst:25
+msgid "30%"
+msgstr "30%"
+
+#: ../../source/concepts.rst:26
+msgid "Видима средняя часть диапазона."
+msgstr "The middle portion of the range is visible."
+
+#: ../../source/concepts.rst:29
+msgid "Пустой диапазон."
+msgstr "An empty range."
+
+#: ../../source/concepts.rst:31
+msgid "``INVERT_TRIM`` оставляет область снаружи выбранного интервала. Поэтому результат может состоять из двух раздельных цепочек."
+msgstr "``INVERT_TRIM`` keeps the area outside the selected interval. The result may therefore consist of two separate chains."
+
+#: ../../source/concepts.rst:35
+msgid "Глобальное и локальное время"
+msgstr "Global and local time"
+
+#: ../../source/concepts.rst:37
+msgid "Сначала глобальные значения Grow и Trim переводятся во время каждой группы сегментов. Затем внутри каждого сегмента выполняется геометрическая обрезка."
+msgstr "First, the global Grow and Trim values are converted to the time range of each segment group. Geometric trimming is then performed within each segment."
+
+#: ../../source/concepts.rst:41
+msgid "``SPEED_MOD`` управляет этим переводом:"
+msgstr "``SPEED_MOD`` controls this conversion:"
+
+#: ../../source/concepts.rst:43
+msgid "TIME"
+msgstr "TIME"
+
+#: ../../source/concepts.rst:44
+msgid "Каждая группа получает одинаковую долю времени независимо от длины."
+msgstr "Each group receives the same share of time regardless of its length."
+
+#: ../../source/concepts.rst:46
+msgid "LENGTH"
+msgstr "LENGTH"
+
+#: ../../source/concepts.rst:47
+msgid "Время пропорционально суммарной длине сегментов группы."
+msgstr "Time is proportional to the total length of the segments in the group."
+
+#: ../../source/concepts.rst:49
+msgid "MIX"
+msgstr "MIX"
+
+#: ../../source/concepts.rst:50
+msgid "Интерполяция между TIME и LENGTH. Доля задаётся ``SPEED_MIX``."
+msgstr "Interpolates between TIME and LENGTH. ``SPEED_MIX`` sets the blend amount."
+
+#: ../../source/concepts.rst:52
+msgid "``OVERLAP`` позволяет следующей группе начаться до завершения предыдущей."
+msgstr "``OVERLAP`` lets the next group start before the previous one finishes."
+
+#: ../../source/concepts.rst:55
+msgid "Anchor и Symmetry"
+msgstr "Anchor and Symmetry"
+
+#: ../../source/concepts.rst:57
+msgid "При ``SYMMETRY = ON`` Anchor находится внутри каждого сегмента, а рост может идти в обе стороны."
+msgstr "With ``SYMMETRY = ON``, the Anchor lies within each segment and growth can proceed in both directions."
+
+#: ../../source/concepts.rst:60
+msgid "При ``SYMMETRY = OFF`` используется однонаправленная обрезка. Для закрытых режимов алгоритм переходит к ``CLOSE``, для открытых — к ``OPEN``."
+msgstr "With ``SYMMETRY = OFF``, one-way trimming is used. The algorithm switches to ``CLOSE`` for closed modes and to ``OPEN`` for open modes."

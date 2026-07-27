@@ -1,0 +1,68 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 21:58+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/index.rst:31
+msgid "Начало работы"
+msgstr "Getting started"
+
+#: ../../source/index.rst:40
+msgid "Параметры"
+msgstr "Parameters"
+
+#: ../../source/index.rst:50
+msgid "Практика и справка"
+msgstr "Guides and reference"
+
+#: ../../source/index.rst:2 ../../source/index.rst:4
+msgid "Trimmetry"
+msgstr "Trimmetry"
+
+#: ../../source/index.rst:9
+msgid "**Trimmetry** — генератор Cinema 4D, который протягивает профиль вдоль многосегментного сплайна и позволяет анимировать появление, обрезку, масштаб и вращение полученной полигональной геометрии."
+msgstr "**Trimmetry** is a Cinema 4D generator that sweeps a profile along a multi-segment spline and lets you animate the reveal, trimming, scale, and rotation of the resulting polygonal geometry."
+
+#: ../../source/index.rst:13
+msgid "Плагин рассчитан не только на один сплайн: он умеет сортировать сегменты, объединять их в группы, назначать каждой группе точку старта и управлять очерёдностью анимации."
+msgstr "The plugin is designed for more than a single spline: it can sort segments, combine them into groups, assign a starting point to each group, and control the animation order."
+
+#: ../../source/index.rst:18
+msgid "Быстрый старт"
+msgstr "Quick start"
+
+#: ../../source/index.rst:20
+msgid "Создайте объект **Trimmetry**."
+msgstr "Create a **Trimmetry** object."
+
+#: ../../source/index.rst:21
+msgid "Поместите сплайн пути первым дочерним объектом."
+msgstr "Place the path spline as the first child."
+
+#: ../../source/index.rst:22
+msgid "Поместите сплайн профиля вторым дочерним объектом."
+msgstr "Place the profile spline as the second child."
+
+#: ../../source/index.rst:23
+msgid "Установите ``GROW = 100%`` и ``TRIM = 0%``."
+msgstr "Set ``GROW = 100%`` and ``TRIM = 0%``."
+
+#: ../../source/index.rst:24
+msgid "Выберите подходящий ``SPLINE_TYPE``."
+msgstr "Choose an appropriate ``SPLINE_TYPE``."
+
+#: ../../source/index.rst:28
+msgid "Порядок дочерних объектов имеет значение: сначала **Path**, затем **Profile**. Подробнее см. :doc:`quickstart`."
+msgstr "The order of the child objects matters: **Path** first, then **Profile**. See :doc:`quickstart` for details."

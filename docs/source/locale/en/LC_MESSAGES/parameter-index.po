@@ -1,0 +1,289 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 21:58+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/parameter-index.rst:2
+msgid "Указатель параметров"
+msgstr "Parameter index"
+
+#: ../../source/parameter-index.rst:5
+msgid "Значения по умолчанию"
+msgstr "Default values"
+
+#: ../../source/parameter-index.rst:11
+msgid "Параметр"
+msgstr "Parameter"
+
+#: ../../source/parameter-index.rst:12
+msgid "По умолчанию"
+msgstr "Default"
+
+#: ../../source/parameter-index.rst:13
+msgid "Раздел"
+msgstr "Section"
+
+#: ../../source/parameter-index.rst:14
+msgid "GROW"
+msgstr "GROW"
+
+#: ../../source/parameter-index.rst:15 ../../source/parameter-index.rst:36
+msgid "100%"
+msgstr "100%"
+
+#: ../../source/parameter-index.rst:16 ../../source/parameter-index.rst:19
+#: ../../source/parameter-index.rst:22 ../../source/parameter-index.rst:25
+#: ../../source/parameter-index.rst:28 ../../source/parameter-index.rst:31
+#: ../../source/parameter-index.rst:34 ../../source/parameter-index.rst:37
+#: ../../source/parameter-index.rst:40 ../../source/parameter-index.rst:43
+#: ../../source/parameter-index.rst:46 ../../source/parameter-index.rst:49
+msgid ":doc:`settings/main`"
+msgstr ":doc:`settings/main`"
+
+#: ../../source/parameter-index.rst:17
+msgid "TRIM"
+msgstr "TRIM"
+
+#: ../../source/parameter-index.rst:18 ../../source/parameter-index.rst:27
+msgid "0%"
+msgstr "0%"
+
+#: ../../source/parameter-index.rst:20
+msgid "SPLINE TYPE"
+msgstr "SPLINE TYPE"
+
+#: ../../source/parameter-index.rst:21
+msgid "CLOSE DUO"
+msgstr "CLOSE DUO"
+
+#: ../../source/parameter-index.rst:23
+msgid "INVERT TRIM"
+msgstr "INVERT TRIM"
+
+#: ../../source/parameter-index.rst:24 ../../source/parameter-index.rst:54
+#: ../../source/parameter-index.rst:60 ../../source/parameter-index.rst:72
+msgid "OFF"
+msgstr "OFF"
+
+#: ../../source/parameter-index.rst:26
+msgid "ANCHOR OFFSET"
+msgstr "ANCHOR OFFSET"
+
+#: ../../source/parameter-index.rst:29
+msgid "SYMMETRY"
+msgstr "SYMMETRY"
+
+#: ../../source/parameter-index.rst:30 ../../source/parameter-index.rst:42
+#: ../../source/parameter-index.rst:48 ../../source/parameter-index.rst:90
+msgid "ON"
+msgstr "ON"
+
+#: ../../source/parameter-index.rst:32
+msgid "SPEED MOD"
+msgstr "SPEED MOD"
+
+#: ../../source/parameter-index.rst:33
+msgid "TIME"
+msgstr "TIME"
+
+#: ../../source/parameter-index.rst:35
+msgid "OVERLAP"
+msgstr "OVERLAP"
+
+#: ../../source/parameter-index.rst:38
+msgid "TRIM BOUNCE MODE"
+msgstr "TRIM BOUNCE MODE"
+
+#: ../../source/parameter-index.rst:39
+msgid "NO AUTO BOUNCE"
+msgstr "NO AUTO BOUNCE"
+
+#: ../../source/parameter-index.rst:41
+msgid "SNAP EXTRAPOLATED"
+msgstr "SNAP EXTRAPOLATED"
+
+#: ../../source/parameter-index.rst:44
+msgid "SPEED MODE"
+msgstr "SPEED MODE"
+
+#: ../../source/parameter-index.rst:45
+msgid "MOMENTAL"
+msgstr "MOMENTAL"
+
+#: ../../source/parameter-index.rst:47
+msgid "BORDER CORRECTION"
+msgstr "BORDER CORRECTION"
+
+#: ../../source/parameter-index.rst:50
+msgid "SCALE START / END"
+msgstr "SCALE START / END"
+
+#: ../../source/parameter-index.rst:51
+msgid "100% / 100%"
+msgstr "100% / 100%"
+
+#: ../../source/parameter-index.rst:52
+msgid ":doc:`settings/deformation`"
+msgstr ":doc:`settings/deformation`"
+
+#: ../../source/parameter-index.rst:53
+msgid "FIX SEG DIR"
+msgstr "FIX SEG DIR"
+
+#: ../../source/parameter-index.rst:55 ../../source/parameter-index.rst:58
+#: ../../source/parameter-index.rst:61 ../../source/parameter-index.rst:64
+msgid ":doc:`settings/output`"
+msgstr ":doc:`settings/output`"
+
+#: ../../source/parameter-index.rst:56
+msgid "UV MODE"
+msgstr "UV MODE"
+
+#: ../../source/parameter-index.rst:57
+msgid "LOCAL"
+msgstr "LOCAL"
+
+#: ../../source/parameter-index.rst:59
+msgid "UV INVERT"
+msgstr "UV INVERT"
+
+#: ../../source/parameter-index.rst:62
+msgid "Phong Angle"
+msgstr "Phong Angle"
+
+#: ../../source/parameter-index.rst:63
+msgid "60°"
+msgstr "60°"
+
+#: ../../source/parameter-index.rst:65
+msgid "SORT MODE"
+msgstr "SORT MODE"
+
+#: ../../source/parameter-index.rst:66 ../../source/parameter-index.rst:87
+#: ../../source/parameter-index.rst:93
+msgid "BASE"
+msgstr "BASE"
+
+#: ../../source/parameter-index.rst:67 ../../source/parameter-index.rst:70
+#: ../../source/parameter-index.rst:73 ../../source/parameter-index.rst:76
+#: ../../source/parameter-index.rst:79 ../../source/parameter-index.rst:82
+#: ../../source/parameter-index.rst:85
+msgid ":doc:`settings/segment-sort`"
+msgstr ":doc:`settings/segment-sort`"
+
+#: ../../source/parameter-index.rst:68
+msgid "GAP / ID OFFSET"
+msgstr "GAP / ID OFFSET"
+
+#: ../../source/parameter-index.rst:69
+msgid "0 / 0"
+msgstr "0 / 0"
+
+#: ../../source/parameter-index.rst:71
+msgid "MERGE PAIR"
+msgstr "MERGE PAIR"
+
+#: ../../source/parameter-index.rst:74
+msgid "SEARCH RADIUS LOCAL"
+msgstr "SEARCH RADIUS LOCAL"
+
+#: ../../source/parameter-index.rst:75
+msgid "5%"
+msgstr "5%"
+
+#: ../../source/parameter-index.rst:77
+msgid "SEARCH RADIUS REAL"
+msgstr "SEARCH RADIUS REAL"
+
+#: ../../source/parameter-index.rst:78
+msgid "30 m"
+msgstr "30 m"
+
+#: ../../source/parameter-index.rst:80
+msgid "MAX NEIG"
+msgstr "MAX NEIG"
+
+#: ../../source/parameter-index.rst:81
+msgid "1"
+msgstr "1"
+
+#: ../../source/parameter-index.rst:83
+msgid "PAIR IDS"
+msgstr "PAIR IDS"
+
+#: ../../source/parameter-index.rst:84
+msgid "``0+5``"
+msgstr "``0+5``"
+
+#: ../../source/parameter-index.rst:86
+msgid "ANCHOR MODE"
+msgstr "ANCHOR MODE"
+
+#: ../../source/parameter-index.rst:88 ../../source/parameter-index.rst:91
+#: ../../source/parameter-index.rst:94 ../../source/parameter-index.rst:97
+msgid ":doc:`settings/anchor-sort`"
+msgstr ":doc:`settings/anchor-sort`"
+
+#: ../../source/parameter-index.rst:89
+msgid "PROPORTIONAL"
+msgstr "PROPORTIONAL"
+
+#: ../../source/parameter-index.rst:92
+msgid "ANCHOR SORT MODE"
+msgstr "ANCHOR SORT MODE"
+
+#: ../../source/parameter-index.rst:95
+msgid "SAMPLE COUNT"
+msgstr "SAMPLE COUNT"
+
+#: ../../source/parameter-index.rst:96
+msgid "100"
+msgstr "100"
+
+#: ../../source/parameter-index.rst:100
+msgid "Динамические параметры"
+msgstr "Context-dependent parameters"
+
+#: ../../source/parameter-index.rst:102
+msgid "Некоторые элементы появляются только в подходящем контексте:"
+msgstr "Some controls only appear in the relevant context:"
+
+#: ../../source/parameter-index.rst:104
+msgid "``SNAP EXTRAPOLATED`` — OPEN EXTRAPOLATED + Symmetry;"
+msgstr "``SNAP EXTRAPOLATED`` — OPEN EXTRAPOLATED + Symmetry;"
+
+#: ../../source/parameter-index.rst:105
+msgid "``SPEED MODE`` и ``BORDER CORRECTION`` — OPEN FAKE + Symmetry;"
+msgstr "``SPEED MODE`` and ``BORDER CORRECTION`` — OPEN FAKE + Symmetry;"
+
+#: ../../source/parameter-index.rst:106
+msgid "``INVERT DIR`` — при включённом Fix Seg Dir;"
+msgstr "``INVERT DIR`` — when Fix Seg Dir is enabled;"
+
+#: ../../source/parameter-index.rst:107
+msgid "параметры Pairs — при включённом Merge Pair;"
+msgstr "Pairs parameters — when Merge Pair is enabled;"
+
+#: ../../source/parameter-index.rst:108
+msgid "``REF OBJECT`` — Distance to Object или Splinora;"
+msgstr "``REF OBJECT`` — Distance to Object or Splinora;"
+
+#: ../../source/parameter-index.rst:109
+msgid "``SAMPLE COUNT`` — Distance to Object + Sampling;"
+msgstr "``SAMPLE COUNT`` — Distance to Object + Sampling;"
+
+#: ../../source/parameter-index.rst:110
+msgid "настройки Circle — при Anchor Mode = Circle."
+msgstr "Circle settings — when Anchor Mode = Circle."

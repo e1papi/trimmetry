@@ -1,8 +1,14 @@
+import os
+
+
 project = "Trimmetry"
 author = "e1papi"
 copyright = "2026, e1papi"
 release = "1.0"
-language = "ru"
+language = os.getenv("DOCS_LANGUAGE", "en")
+locale_dirs = ["locale/"]
+gettext_compact = True
+gettext_additional_targets = ["literal-block"]
 
 extensions = [
     "sphinx.ext.githubpages",
@@ -17,6 +23,7 @@ html_logo = "_static/LOGO.png"
 html_favicon = "_static/icon.png"
 html_static_path = ["_static"]
 html_css_files = ["trimmetry.css"]
+html_js_files = ["language-switcher.js"]
 
 html_theme_options = {
     "repository_url": "https://github.com/e1papi/trimmetry",
@@ -30,8 +37,8 @@ html_theme_options = {
     "max_navbar_depth": 4,
     "collapse_navbar": False,
     "home_page_in_toc": True,
-    "toc_title": "На этой странице",
+    "toc_title": "На этой странице" if language == "ru" else "On this page",
 }
 
-html_last_updated_fmt = "%d.%m.%Y"
+html_last_updated_fmt = "%d.%m.%Y" if language == "ru" else "%Y-%m-%d"
 

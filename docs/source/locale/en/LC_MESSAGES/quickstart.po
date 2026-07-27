@@ -1,0 +1,186 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 22:10+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/quickstart.rst:2
+msgid "Быстрый старт"
+msgstr "Quick start"
+
+#: ../../source/quickstart.rst:5
+msgid "Минимальная сцена"
+msgstr "Minimal scene"
+
+#: ../../source/quickstart.rst:7
+msgid "Создайте сплайн, который будет траекторией."
+msgstr "Create a spline to use as the path."
+
+#: ../../source/quickstart.rst:8
+msgid "Создайте небольшой Circle, Rectangle или собственный сплайн профиля."
+msgstr "Create a small Circle, Rectangle, or a custom profile spline."
+
+#: ../../source/quickstart.rst:9
+msgid "Создайте объект **Trimmetry**."
+msgstr "Create a **Trimmetry** object."
+
+#: ../../source/quickstart.rst:10
+msgid "Перетащите Path под Trimmetry первым дочерним объектом."
+msgstr "Drag Path under Trimmetry as the first child."
+
+#: ../../source/quickstart.rst:11
+msgid "Перетащите Profile туда же вторым дочерним объектом."
+msgstr "Drag Profile there as the second child."
+
+#: ../../source/quickstart.rst:13
+msgid "Иерархия должна выглядеть так:"
+msgstr "The hierarchy should look like this:"
+
+#: ../../source/quickstart.rst:15
+msgid ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+msgstr ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+
+#: ../../source/quickstart.rst:23
+msgid "В исследованной сборке генератор читает первый и второй дочерние объекты напрямую. Поля ``PATH`` и ``PROFILE`` видны в интерфейсе, однако для надёжной работы используйте именно иерархию выше."
+msgstr "In the tested build, the generator reads the first and second child objects directly. The ``PATH`` and ``PROFILE`` fields are visible in the interface, but use the hierarchy above for reliable operation."
+
+#: ../../source/quickstart.rst:28
+msgid "Стартовые настройки"
+msgstr "Initial settings"
+
+#: ../../source/quickstart.rst:30
+msgid "Для первой проверки используйте:"
+msgstr "For your first test, use:"
+
+#: ../../source/quickstart.rst:36
+msgid "Параметр"
+msgstr "Parameter"
+
+#: ../../source/quickstart.rst:37
+msgid "Значение"
+msgstr "Value"
+
+#: ../../source/quickstart.rst:38
+msgid "Результат"
+msgstr "Result"
+
+#: ../../source/quickstart.rst:39
+msgid "``GROW``"
+msgstr "``GROW``"
+
+#: ../../source/quickstart.rst:40
+msgid "``100%``"
+msgstr "``100%``"
+
+#: ../../source/quickstart.rst:41
+msgid "Вся доступная геометрия видима."
+msgstr "All available geometry is visible."
+
+#: ../../source/quickstart.rst:42
+msgid "``TRIM``"
+msgstr "``TRIM``"
+
+#: ../../source/quickstart.rst:43
+msgid "``0%``"
+msgstr "``0%``"
+
+#: ../../source/quickstart.rst:44
+msgid "Начало диапазона не срезано."
+msgstr "The beginning of the range is not trimmed."
+
+#: ../../source/quickstart.rst:45
+msgid "``SYMMETRY``"
+msgstr "``SYMMETRY``"
+
+#: ../../source/quickstart.rst:46
+msgid "``ON``"
+msgstr "``ON``"
+
+#: ../../source/quickstart.rst:47
+msgid "Рост идёт от Anchor в обе стороны."
+msgstr "Growth proceeds from the Anchor in both directions."
+
+#: ../../source/quickstart.rst:48
+msgid "``SPLINE_TYPE``"
+msgstr "``SPLINE_TYPE``"
+
+#: ../../source/quickstart.rst:49
+msgid "``OPEN PROPORTIONAL``"
+msgstr "``OPEN PROPORTIONAL``"
+
+#: ../../source/quickstart.rst:50
+msgid "Удобный режим для первого открытого пути."
+msgstr "A convenient mode for your first open path."
+
+#: ../../source/quickstart.rst:51
+msgid "``SPEED_MOD``"
+msgstr "``SPEED_MOD``"
+
+#: ../../source/quickstart.rst:52
+msgid "``TIME``"
+msgstr "``TIME``"
+
+#: ../../source/quickstart.rst:53
+msgid "Все группы получают равное время."
+msgstr "All groups receive equal time."
+
+#: ../../source/quickstart.rst:56
+msgid "Первая анимация"
+msgstr "First animation"
+
+#: ../../source/quickstart.rst:58
+msgid "На нулевом кадре установите ``GROW = 0%`` и создайте ключ."
+msgstr "At frame zero, set ``GROW = 0%`` and create a keyframe."
+
+#: ../../source/quickstart.rst:59
+msgid "На последнем кадре установите ``GROW = 100%`` и создайте ключ."
+msgstr "At the last frame, set ``GROW = 100%`` and create a keyframe."
+
+#: ../../source/quickstart.rst:60
+msgid "Если сегментов несколько, настройте ``OVERLAP``."
+msgstr "If there are multiple segments, adjust ``OVERLAP``."
+
+#: ../../source/quickstart.rst:61
+msgid "При необходимости измените их порядок в :doc:`settings/segment-sort`."
+msgstr "If necessary, change their order in :doc:`settings/segment-sort`."
+
+#: ../../source/quickstart.rst:62
+msgid "Настройте точку раскрытия в :doc:`settings/anchor-sort`."
+msgstr "Set the reveal point in :doc:`settings/anchor-sort`."
+
+#: ../../source/quickstart.rst:65
+msgid "Path и Profile"
+msgstr "Path and Profile"
+
+#: ../../source/quickstart.rst:67
+msgid "Path"
+msgstr "Path"
+
+#: ../../source/quickstart.rst:68
+msgid "Может содержать несколько сегментов. Количество точек каждого сегмента определяет плотность колец и, следовательно, детализацию результата."
+msgstr "May contain multiple segments. The number of points in each segment determines the ring density and therefore the level of detail in the result."
+
+#: ../../source/quickstart.rst:71
+msgid "Profile"
+msgstr "Profile"
+
+#: ../../source/quickstart.rst:72
+msgid "Должен содержать минимум две точки. Закрытый Profile создаёт замкнутое поперечное сечение, открытый — ленту."
+msgstr "Must contain at least two points. A closed Profile creates a closed cross-section; an open Profile creates a strip."

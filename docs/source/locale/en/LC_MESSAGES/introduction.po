@@ -1,0 +1,88 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 21:58+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/introduction.rst:2
+msgid "Введение"
+msgstr "Introduction"
+
+#: ../../source/introduction.rst:5
+msgid "Что делает Trimmetry"
+msgstr "What Trimmetry does"
+
+#: ../../source/introduction.rst:7
+msgid "Trimmetry получает два сплайна:"
+msgstr "Trimmetry takes two splines:"
+
+#: ../../source/introduction.rst:9
+msgid "**Path** задаёт траекторию и набор сегментов;"
+msgstr "**Path** defines the trajectory and the set of segments;"
+
+#: ../../source/introduction.rst:10
+msgid "**Profile** задаёт поперечное сечение."
+msgstr "**Profile** defines the cross-section."
+
+#: ../../source/introduction.rst:12
+msgid "Для каждого сегмента Path плагин строит последовательность матриц, переносит по ним точки Profile и соединяет соседние кольца полигонами. После этого применяются обрезка, деформация, UV-развёртка и Phong."
+msgstr "For each Path segment, the plugin builds a sequence of matrices, transforms the Profile points with them, and connects adjacent rings with polygons. Trimming, deformation, UV mapping, and Phong shading are then applied."
+
+#: ../../source/introduction.rst:16
+msgid "В отличие от стандартного Sweep, Trimmetry ориентирован на управляемое появление большого количества сегментов:"
+msgstr "Unlike the standard Sweep, Trimmetry is designed for controlled reveals across many segments:"
+
+#: ../../source/introduction.rst:19
+msgid "``GROW`` раскрывает геометрию;"
+msgstr "``GROW`` reveals the geometry;"
+
+#: ../../source/introduction.rst:20
+msgid "``TRIM`` срезает начало видимого диапазона;"
+msgstr "``TRIM`` cuts away the beginning of the visible range;"
+
+#: ../../source/introduction.rst:21
+msgid "``SPEED_MOD`` распределяет анимацию по времени или длине;"
+msgstr "``SPEED_MOD`` distributes the animation by time or length;"
+
+#: ../../source/introduction.rst:22
+msgid "``OVERLAP`` задаёт перекрытие соседних групп;"
+msgstr "``OVERLAP`` sets the overlap between adjacent groups;"
+
+#: ../../source/introduction.rst:23
+msgid "**Segment Sort** определяет порядок групп;"
+msgstr "**Segment Sort** determines the group order;"
+
+#: ../../source/introduction.rst:24
+msgid "**Anchor Sort** определяет точку, от которой раскрывается каждый сегмент."
+msgstr "**Anchor Sort** determines the point from which each segment is revealed."
+
+#: ../../source/introduction.rst:27
+msgid "Что создаётся на выходе"
+msgstr "Output"
+
+#: ../../source/introduction.rst:29
+msgid "Результатом работы является полигональный объект. Плагин также создаёт:"
+msgstr "The result is a polygon object. The plugin also creates:"
+
+#: ../../source/introduction.rst:31
+msgid "UVW-тег с координатами вдоль профиля и пути;"
+msgstr "a UVW tag with coordinates along the profile and path;"
+
+#: ../../source/introduction.rst:32
+msgid "Phong-тег с настраиваемым ограничением угла;"
+msgstr "a Phong tag with a configurable angle limit;"
+
+#: ../../source/introduction.rst:33
+msgid "топологически замкнутый шов при полном росте закрытого пути, когда выбран совместимый режим."
+msgstr "a topologically closed seam at full growth of a closed path when a compatible mode is selected."

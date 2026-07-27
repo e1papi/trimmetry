@@ -1,0 +1,949 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 22:10+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/settings/anchor-sort.rst:2
+msgid "Anchor Sort"
+msgstr "Anchor Sort"
+
+#: ../../source/settings/anchor-sort.rst:4
+msgid "Anchor Sort вычисляет стартовую позицию внутри каждого сегмента."
+msgstr "Anchor Sort calculates the starting position within each segment."
+
+#: ../../source/settings/anchor-sort.rst:7
+msgid "ANCHOR MODE"
+msgstr "ANCHOR MODE"
+
+#: ../../source/settings/anchor-sort.rst:9
+#: ../../source/settings/anchor-sort.rst:119
+#: ../../source/settings/segment-sort.rst:14
+msgid "BASE"
+msgstr "BASE"
+
+#: ../../source/settings/anchor-sort.rst:10
+msgid "Начало сегмента с учётом Direction и Anchor Offset."
+msgstr "The start of the segment, taking Direction and Anchor Offset into account."
+
+#: ../../source/settings/anchor-sort.rst:12
+msgid "REVERSE"
+msgstr "REVERSE"
+
+#: ../../source/settings/anchor-sort.rst:13
+msgid "Противоположный конец сегмента."
+msgstr "The opposite end of the segment."
+
+#: ../../source/settings/anchor-sort.rst:15
+msgid "AXIS"
+msgstr "AXIS"
+
+#: ../../source/settings/anchor-sort.rst:16
+msgid "Выбирает Anchor по экстремуму вдоль ОСНОВНОГО ``AXIS``."
+msgstr "Selects the Anchor at an extreme along the primary ``AXIS``."
+
+#: ../../source/settings/anchor-sort.rst:18
+msgid "anchor-axis-sort"
+msgstr "anchor-axis-sort"
+
+#: ../../source/settings/anchor-sort.rst:23
+msgid "MIN/MAX"
+msgstr "MIN/MAX"
+
+#: ../../source/settings/anchor-sort.rst:24
+msgid "Выбирает минимальный или максимальный экстремум по ! ``CORRECTIONAL AXIS`` !"
+msgstr "Selects the minimum or maximum extreme along the ``CORRECTIONAL AXIS``."
+
+#: ../../source/settings/anchor-sort.rst:26
+msgid "AXIS CENTRED"
+msgstr "AXIS CENTRED"
+
+#: ../../source/settings/anchor-sort.rst:27
+msgid "Размещает Anchor относительно общей центральной плоскости выбранной оси, создавая симметричное раскрытие набора сегментов. Грубо говоря, ищет экстремумы по ОСНОВНОМУ ``AXIS`` и, если их несколько, то выбирает их среднее значение по ``CORRECTIONAL AXIS``"
+msgstr "Places the Anchor relative to the common center plane of the selected axis, creating a symmetrical reveal across the segment set. In simple terms, it finds extremes along the primary ``AXIS`` and, when there are several, uses their average position along the ``CORRECTIONAL AXIS``."
+
+#: ../../source/settings/anchor-sort.rst:32
+msgid "anchor-axis-center-sort"
+msgstr "anchor-axis-center-sort"
+
+#: ../../source/settings/anchor-sort.rst:38
+msgid "CENTER"
+msgstr "CENTER"
+
+#: ../../source/settings/anchor-sort.rst:39
+msgid "Ищет положение относительно общего центра набора. Тип центра сегмента задаётся ``SEGMENT CENTER``."
+msgstr "Finds a position relative to the overall center of the set. ``SEGMENT CENTER`` defines how each segment center is calculated."
+
+#: ../../source/settings/anchor-sort.rst:42
+msgid "anchor-center-sort"
+msgstr "anchor-center-sort"
+
+#: ../../source/settings/anchor-sort.rst:47
+msgid "DISTANCE TO OBJECT"
+msgstr "DISTANCE TO OBJECT"
+
+#: ../../source/settings/anchor-sort.rst:48
+msgid "Находит Anchor относительно ``REF OBJECT``. Точный метод выбирается параметром ``DISTANCE MODE``."
+msgstr "Finds the Anchor relative to ``REF OBJECT``. ``DISTANCE MODE`` selects the exact method."
+
+#: ../../source/settings/anchor-sort.rst:51
+msgid "anchor-ref-sort"
+msgstr "anchor-ref-sort"
+
+#: ../../source/settings/anchor-sort.rst:56
+msgid "DISTANCE MODE"
+msgstr "DISTANCE MODE"
+
+#: ../../source/settings/anchor-sort.rst:57
+msgid "PROJECTION"
+msgstr "PROJECTION"
+
+#: ../../source/settings/anchor-sort.rst:58
+msgid "Проецирует позицию reference object на геометрическое направление сегмента."
+msgstr "Projects the reference object's position onto the geometric direction of the segment."
+
+#: ../../source/settings/anchor-sort.rst:61
+msgid "SAMPLING"
+msgstr "SAMPLING"
+
+#: ../../source/settings/anchor-sort.rst:62
+msgid "Семплирует кривую и ищет подходящую точку. Точность задаёт ``SAMPLE COUNT``."
+msgstr "Samples the curve and finds a suitable point. ``SAMPLE COUNT`` controls the accuracy."
+
+#: ../../source/settings/anchor-sort.rst:65
+#: ../../source/settings/deformation.rst:60
+msgid "MATRIX"
+msgstr "MATRIX"
+
+#: ../../source/settings/anchor-sort.rst:66
+msgid "Выбирает ближайшую или дальнюю из уже построенных матриц сегмента."
+msgstr "Selects the nearest or farthest of the segment matrices that have already been built."
+
+#: ../../source/settings/anchor-sort.rst:69
+#: ../../source/settings/segment-sort.rst:28
+msgid "CIRCLE"
+msgstr "CIRCLE"
+
+#: ../../source/settings/anchor-sort.rst:70
+msgid "Вычисляет радиальное направление от общего центра и выбирает Anchor относительно круговой раскладки."
+msgstr "Calculates a radial direction from the overall center and selects the Anchor relative to the circular layout."
+
+#: ../../source/settings/anchor-sort.rst:73
+msgid "anchor-circle-sort"
+msgstr "anchor-circle-sort"
+
+#: ../../source/settings/anchor-sort.rst:78
+msgid "CIRCLE MODE"
+msgstr "CIRCLE MODE"
+
+#: ../../source/settings/anchor-sort.rst:79
+msgid "``AUTO`` определяет рабочую плоскость большинством направлений сегментов. ``MANUAL`` открывает параметр ``CORRECTIONAL PLANE``."
+msgstr "``AUTO`` determines the working plane from the majority of segment directions. ``MANUAL`` exposes the ``CORRECTIONAL PLANE`` parameter."
+
+#: ../../source/settings/anchor-sort.rst:82
+#: ../../source/settings/segment-sort.rst:69
+msgid "CORRECTIONAL PLANE"
+msgstr "CORRECTIONAL PLANE"
+
+#: ../../source/settings/anchor-sort.rst:83
+msgid "Ручной выбор XY, YZ или XZ для режима ``CIRCLE``."
+msgstr "Manually selects XY, YZ, or XZ for ``CIRCLE`` mode."
+
+#: ../../source/settings/anchor-sort.rst:85
+msgid "FIX CIRCLE"
+msgstr "FIX CIRCLE"
+
+#: ../../source/settings/anchor-sort.rst:86
+msgid "Переключает дополнительную коррекцию радиальной ориентации (в основном когда сегменты расположены радиально в 2d плоскости)."
+msgstr "Toggles additional radial-orientation correction, mainly for segments arranged radially in a 2D plane."
+
+#: ../../source/settings/anchor-sort.rst:89
+msgid "SPLINORA"
+msgstr "SPLINORA"
+
+#: ../../source/settings/anchor-sort.rst:90
+msgid "Использует ``REF OBJECT`` как пользовательскую позицию разреза. Может смешивать специальный разрез с обычным закрытым режимом через ``MIX CLOSED``."
+msgstr "Uses ``REF OBJECT`` as a custom cut position. ``MIX CLOSED`` can blend this special cut with the regular closed mode."
+
+#: ../../source/settings/anchor-sort.rst:94
+msgid "anchor-splinora-sort-1"
+msgstr "anchor-splinora-sort-1"
+
+#: ../../source/settings/anchor-sort.rst:99
+msgid "anchor-splinora-sort-2"
+msgstr "anchor-splinora-sort-2"
+
+#: ../../source/settings/anchor-sort.rst:104
+msgid "MIX CLOSED"
+msgstr "MIX CLOSED"
+
+#: ../../source/settings/anchor-sort.rst:105
+msgid "Для сегментов пересекающихся с разрезом  ``REF OBJECT`` применяется SPLINE_TYPE в режиме ``CLOSE_DUO``, а для остальных — обычный ``CLOSE``."
+msgstr "Segments that intersect the ``REF OBJECT`` cut use SPLINE_TYPE in ``CLOSE_DUO`` mode; all other segments use regular ``CLOSE``."
+
+#: ../../source/settings/anchor-sort.rst:110
+msgid "PROPORTIONAL"
+msgstr "PROPORTIONAL"
+
+#: ../../source/settings/anchor-sort.rst:112
+msgid "При ``ON`` левая и правая части получают коэффициенты, рассчитанные по доступной длине вокруг Anchor. Это помогает сторонам завершать рост согласованно. При ``OFF`` используется равное деление ``0.5 / 0.5``."
+msgstr "When ``ON``, the left and right sides receive factors calculated from the available length around the Anchor. This helps both sides finish growing together. When ``OFF``, an even ``0.5 / 0.5`` split is used."
+
+#: ../../source/settings/anchor-sort.rst:117
+msgid "ANCHOR SORT MODE"
+msgstr "ANCHOR SORT MODE"
+
+#: ../../source/settings/anchor-sort.rst:120
+msgid "Базовое направление."
+msgstr "Base direction."
+
+#: ../../source/settings/anchor-sort.rst:122
+msgid "HALF"
+msgstr "HALF"
+
+#: ../../source/settings/anchor-sort.rst:123
+msgid "Меняет направление для второй половины списка сегментов."
+msgstr "Reverses the direction for the second half of the segment list."
+
+#: ../../source/settings/anchor-sort.rst:125
+msgid "sort mode half"
+msgstr "sort mode half"
+
+#: ../../source/settings/anchor-sort.rst:130
+msgid "MOD"
+msgstr "MOD"
+
+#: ../../source/settings/anchor-sort.rst:131
+msgid "Чередует направление по индексу сегмента. (т.е приницп как у формулы mod(id;2))."
+msgstr "Alternates the direction by segment index, following the same principle as ``mod(id; 2)``."
+
+#: ../../source/settings/anchor-sort.rst:135
+msgid "ВАЖНО! Для ANCHOR_SORT_MODE ``BASE``, ``HALF`` и ``MOD`` используятся исходная индексация сегментов. Т.е пересортировка и группировка полученная в SEGMENT_SORT не учитывается. (В дальнейшем такая возожность будет добавлена). Чтобы воспроизвести поведение режима ``BASE`` и ``HALF`` при кастомной индексации можно использовать ANCHOR_SORT_MODE ``MIRROR``    (читать описание)."
+msgstr "IMPORTANT: ANCHOR_SORT_MODE ``BASE``, ``HALF``, and ``MOD`` use the original segment indices. Reordering and grouping from SEGMENT_SORT are therefore ignored. Support for that behavior may be added later. To reproduce ``BASE`` and ``HALF`` behavior with custom indexing, use ANCHOR_SORT_MODE ``MIRROR`` (see its description)."
+
+#: ../../source/settings/anchor-sort.rst:139
+#: ../../source/settings/segment-sort.rst:45
+msgid "MIRROR"
+msgstr "MIRROR"
+
+#: ../../source/settings/anchor-sort.rst:140
+msgid "! Используется только в связке с ANCHOR MODE ``SPLINORA`` и подключенным ``REF OBJECT``. Использует зеркальный шаблон направления для симметричных наборов. Ниже пример воспроизведения поведениz режима сортировки СЕГМЕТОВ ``MIRROR`` и ANCHOR_SORT_MODE ``HALF``."
+msgstr "Only used together with ANCHOR MODE ``SPLINORA`` and a connected ``REF OBJECT``. It uses a mirrored direction pattern for symmetrical sets. The example below reproduces the behavior of Segment Sort ``MIRROR`` with ANCHOR_SORT_MODE ``HALF``."
+
+#: ../../source/settings/anchor-sort.rst:144
+msgid "sort mode ref"
+msgstr "sort mode ref"
+
+#: ../../source/settings/anchor-sort.rst:150
+msgid "AXIS и DIRECTION"
+msgstr "AXIS and DIRECTION"
+
+#: ../../source/settings/anchor-sort.rst:152
+msgid "``AXIS`` выбирает X, Y или Z для осевых и центральных вычислений. ``DIRECTION`` меняет выбранную сторону или ближайшую/дальнюю интерпретацию в режимах, где она применима."
+msgstr "``AXIS`` selects X, Y, or Z for axial and center calculations. ``DIRECTION`` changes the selected side or the nearest/farthest interpretation in modes where it applies."
+
+#: ../../source/settings/anchor-sort.rst:157
+msgid "ADVANCED"
+msgstr "ADVANCED"
+
+#: ../../source/settings/anchor-sort.rst:159
+msgid "CORRECTIONAL AXIS"
+msgstr "CORRECTIONAL AXIS"
+
+#: ../../source/settings/anchor-sort.rst:160
+msgid "Вторая ось, необходимая для построения корректной ориентации. (В частных случаях может совпадать с ОСНОВНЫМ ``AXIS``)"
+msgstr "The secondary axis used to construct the correct orientation. In some cases it may match the primary ``AXIS``."
+
+#: ../../source/settings/anchor-sort.rst:162
+msgid "SEGMENT CENTER"
+msgstr "SEGMENT CENTER"
+
+#: ../../source/settings/anchor-sort.rst:163
+msgid "``BBOX`` использует центр bounding box сегмента, ``GEO`` — среднее положение его выборок."
+msgstr "``BBOX`` uses the center of the segment's bounding box; ``GEO`` uses the average position of its samples."
+
+#: ../../source/settings/anchor-sort.rst:166 ../../source/settings/main.rst:108
+msgid "ANCHOR OFFSET"
+msgstr "ANCHOR OFFSET"
+
+#: ../../source/settings/anchor-sort.rst:167
+msgid "Дополнительный дискретный выбор/сдвиг внутри режимов Anchor. Не путать с глобальным ``MAIN SETTINGS → ANCHOR OFFSET``."
+msgstr "An additional discrete selection or offset within Anchor modes. Do not confuse it with the global ``MAIN SETTINGS → ANCHOR OFFSET``."
+
+#: ../../source/settings/deformation.rst:2
+msgid "Масштаб и вращение"
+msgstr "Scale and rotation"
+
+#: ../../source/settings/deformation.rst:5
+msgid "SCALE"
+msgstr "SCALE"
+
+#: ../../source/settings/deformation.rst:8
+msgid "SCALE START / SCALE END"
+msgstr "SCALE START / SCALE END"
+
+#: ../../source/settings/deformation.rst:10
+msgid "Масштаб профиля в начале и конце видимой цепочки:"
+msgstr "Profile scale at the beginning and end of the visible chain:"
+
+#: ../../source/settings/deformation.rst:12
+msgid "``100%`` — исходный размер;"
+msgstr "``100%`` — original size;"
+
+#: ../../source/settings/deformation.rst:13
+msgid "``0%`` — профиль схлопнут;"
+msgstr "``0%`` — the profile is collapsed;"
+
+#: ../../source/settings/deformation.rst:14
+msgid "значения выше ``100%`` увеличивают профиль."
+msgstr "values above ``100%`` enlarge the profile."
+
+#: ../../source/settings/deformation.rst:17
+msgid "SCALE CURVE"
+msgstr "SCALE CURVE"
+
+#: ../../source/settings/deformation.rst:19
+msgid "Function Curve перераспределяет переход от Start к End. Горизонтальная ось — положение вдоль цепочки, вертикальная — коэффициент интерполяции."
+msgstr "The Function Curve remaps the transition from Start to End. The horizontal axis is the position along the chain; the vertical axis is the interpolation factor."
+
+#: ../../source/settings/deformation.rst:23
+msgid "SCALE DEFORM MODE"
+msgstr "SCALE DEFORM MODE"
+
+#: ../../source/settings/deformation.rst:25
+#: ../../source/settings/segment-sort.rst:106
+msgid "LOCAL"
+msgstr "LOCAL"
+
+#: ../../source/settings/deformation.rst:26
+msgid "Переход Start → End нормализуется по текущей видимой цепочке. При изменении Grow весь градиент остаётся растянут по видимой части."
+msgstr "The Start → End transition is normalized over the currently visible chain. As Grow changes, the entire gradient remains stretched across the visible portion."
+
+#: ../../source/settings/deformation.rst:29
+msgid "GLOBAL"
+msgstr "GLOBAL"
+
+#: ../../source/settings/deformation.rst:30
+msgid "Переход привязан к общему прогрессу роста. При частичном Grow видна соответствующая часть полного градиента."
+msgstr "The transition is tied to overall growth progress. At partial Grow, the corresponding part of the full gradient is visible."
+
+#: ../../source/settings/deformation.rst:33
+msgid "scale"
+msgstr "scale"
+
+#: ../../source/settings/deformation.rst:39
+msgid "ROTATION"
+msgstr "ROTATION"
+
+#: ../../source/settings/deformation.rst:42
+msgid "ROTATION START / ROTATION END"
+msgstr "ROTATION START / ROTATION END"
+
+#: ../../source/settings/deformation.rst:44
+msgid "Угол поворота профиля в начале и конце цепочки. Интерфейс допускает значения значительно больше полного оборота, поэтому можно создавать многократное скручивание."
+msgstr "Profile rotation at the beginning and end of the chain. The interface accepts values far beyond one full turn, allowing multiple twists."
+
+#: ../../source/settings/deformation.rst:49
+msgid "ROTATION CURVE"
+msgstr "ROTATION CURVE"
+
+#: ../../source/settings/deformation.rst:51
+msgid "Управляет нелинейным переходом между начальным и конечным углами."
+msgstr "Controls the nonlinear transition between the start and end angles."
+
+#: ../../source/settings/deformation.rst:54
+msgid "ROTATION MODE"
+msgstr "ROTATION MODE"
+
+#: ../../source/settings/deformation.rst:56
+msgid "NORMAL"
+msgstr "NORMAL"
+
+#: ../../source/settings/deformation.rst:57
+msgid "Поворачивает готовые кольца вокруг локальной оси пути. Это совместимый, визуально предсказуемый режим."
+msgstr "Rotates the finished rings around the path's local axis. This is the compatible, visually predictable mode."
+
+#: ../../source/settings/deformation.rst:61
+msgid "Встраивает поворот непосредственно в базис матриц профиля. Полезен, когда вращение должно следовать ориентации Sweep-матриц."
+msgstr "Applies rotation directly to the profile-matrix basis. This is useful when rotation must follow the Sweep matrices' orientation."
+
+#: ../../source/settings/deformation.rst:65
+msgid "ROTATION DEFORM MODE"
+msgstr "ROTATION DEFORM MODE"
+
+#: ../../source/settings/deformation.rst:67
+msgid "``LOCAL`` и ``GLOBAL`` работают аналогично режимам Scale: либо нормализуют вращение по видимой цепочке, либо привязывают его к общему прогрессу Grow."
+msgstr "``LOCAL`` and ``GLOBAL`` work like the Scale modes: they either normalize rotation over the visible chain or tie it to overall Grow progress."
+
+#: ../../source/settings/deformation.rst:71
+msgid "rotation"
+msgstr "rotation"
+
+#: ../../source/settings/main.rst:2
+msgid "Основные параметры"
+msgstr "Main parameters"
+
+#: ../../source/settings/main.rst:5
+msgid "MAIN SETTINGS"
+msgstr "MAIN SETTINGS"
+
+#: ../../source/settings/main.rst:8
+msgid "PATH / PROFILE"
+msgstr "PATH / PROFILE"
+
+#: ../../source/settings/main.rst:10
+msgid "Ссылки на траекторию и профиль. В текущей исследованной сборке рекомендуется использовать дочернюю иерархию:"
+msgstr "References to the path and profile. In the tested build, using the child hierarchy is recommended:"
+
+#: ../../source/settings/main.rst:13
+msgid ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+msgstr ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+
+#: ../../source/settings/main.rst:19
+msgid "Настройка Path и Profile в Trimmetry"
+msgstr "Setting up Path and Profile in Trimmetry"
+
+#: ../../source/settings/main.rst:25
+msgid "GROW"
+msgstr "GROW"
+
+#: ../../source/settings/main.rst:27
+msgid "Конец видимого диапазона, от ``0%`` до ``100%``."
+msgstr "The end of the visible range, from ``0%`` to ``100%``."
+
+#: ../../source/settings/main.rst:29
+msgid "``0%`` — рост ещё не начался;"
+msgstr "``0%`` — growth has not started yet;"
+
+#: ../../source/settings/main.rst:30
+msgid "``100%`` — достигнут конец доступного диапазона."
+msgstr "``100%`` — the end of the available range has been reached."
+
+#: ../../source/settings/main.rst:33
+msgid "TRIM"
+msgstr "TRIM"
+
+#: ../../source/settings/main.rst:35
+msgid "Начало видимого диапазона. Рост между Trim и Grow остаётся видимым. Параметр отключается при выборе автоматического ``TRIM_BOUNCE_MODE``."
+msgstr "The beginning of the visible range. The growth between Trim and Grow remains visible. This parameter is disabled when an automatic ``TRIM_BOUNCE_MODE`` is selected."
+
+#: ../../source/settings/main.rst:39
+msgid "SPLINE TYPE"
+msgstr "SPLINE TYPE"
+
+#: ../../source/settings/main.rst:41
+msgid "CLOSE DUO"
+msgstr "CLOSE DUO"
+
+#: ../../source/settings/main.rst:42
+msgid "Двусторонний режим для замкнутого пути. Рост идёт от Anchor в двух направлениях с поддержкой разреза закрытой цепочки."
+msgstr "A two-way mode for a closed path. Growth proceeds from the Anchor in both directions and supports cutting the closed chain."
+
+#: ../../source/settings/main.rst:45
+msgid "Режим Close Duo"
+msgstr "Close Duo mode"
+
+#: ../../source/settings/main.rst:50
+msgid "CLOSE"
+msgstr "CLOSE"
+
+#: ../../source/settings/main.rst:51
+msgid "Закрытый путь с обычной двусторонней обрезкой."
+msgstr "A closed path with standard two-way trimming."
+
+#: ../../source/settings/main.rst:53
+msgid "Режим Close"
+msgstr "Close mode"
+
+#: ../../source/settings/main.rst:58
+msgid "OPEN"
+msgstr "OPEN"
+
+#: ../../source/settings/main.rst:59
+msgid "Открытая логика, в которой обе стороны используют одинаковую нормализованную дистанцию относительно Anchor."
+msgstr "Open-path logic in which both sides use the same normalized distance relative to the Anchor."
+
+#: ../../source/settings/main.rst:62
+msgid "Режим Open"
+msgstr "Open mode"
+
+#: ../../source/settings/main.rst:67
+msgid "OPEN PROPORTIONAL"
+msgstr "OPEN PROPORTIONAL"
+
+#: ../../source/settings/main.rst:68
+msgid "Каждая сторона нормализуется по собственной доступной длине. При нецентральном Anchor левая и правая части достигают концов одновременно."
+msgstr "Each side is normalized by its own available length. With an off-center Anchor, the left and right sides reach their ends at the same time."
+
+#: ../../source/settings/main.rst:71
+msgid "Режим Open Proportional"
+msgstr "Open Proportional mode"
+
+#: ../../source/settings/main.rst:76
+msgid "OPEN EXTRAPOLATED"
+msgstr "OPEN EXTRAPOLATED"
+
+#: ../../source/settings/main.rst:77
+msgid "Открытый режим с виртуальными крайними кольцами. Он помогает продолжить обрезку за вычисленную границу сегмента. Дополнительно доступен ``SNAP EXTRAPOLATED``."
+msgstr "An open mode with virtual end rings. It allows trimming to continue beyond the calculated segment boundary. ``SNAP EXTRAPOLATED`` is also available."
+
+#: ../../source/settings/main.rst:81
+msgid "Режим Open Extrapolated"
+msgstr "Open Extrapolated mode"
+
+#: ../../source/settings/main.rst:86
+msgid "OPEN FAKE"
+msgstr "OPEN FAKE"
+
+#: ../../source/settings/main.rst:87
+msgid "Режим с виртуальной скоростью крайних областей и сохранением разрывов полигонов. Для него доступны ``SPEED MODE`` и ``BORDER CORRECTION``."
+msgstr "A mode with virtual speed in the end regions that preserves polygon gaps. ``SPEED MODE`` and ``BORDER CORRECTION`` are available for it."
+
+#: ../../source/settings/main.rst:90
+msgid "Режим Open Fake"
+msgstr "Open Fake mode"
+
+#: ../../source/settings/main.rst:97
+msgid "Режимы ``CLOSE DUO``, ``CLOSE`` и ``OPEN FAKE`` принудительно обрабатывают Path как закрытый. ``OPEN``, ``OPEN PROPORTIONAL`` и ``OPEN EXTRAPOLATED`` — как открытый."
+msgstr "``CLOSE DUO``, ``CLOSE``, and ``OPEN FAKE`` force Path to be treated as closed. ``OPEN``, ``OPEN PROPORTIONAL``, and ``OPEN EXTRAPOLATED`` treat it as open."
+
+#: ../../source/settings/main.rst:102
+msgid "INVERT TRIM"
+msgstr "INVERT TRIM"
+
+#: ../../source/settings/main.rst:104
+msgid "``OFF`` — оставить интервал между Trim и Grow;"
+msgstr "``OFF`` — keep the interval between Trim and Grow;"
+
+#: ../../source/settings/main.rst:105
+msgid "``ON`` — удалить этот интервал и оставить внешние части."
+msgstr "``ON`` — remove that interval and keep the outer portions."
+
+#: ../../source/settings/main.rst:110
+msgid "Сдвигает вычисленный Anchor вдоль сегмента. Значение хранится как нормализованная доля, несмотря на процентное отображение интерфейса."
+msgstr "Offsets the calculated Anchor along the segment. The value is stored as a normalized fraction despite being displayed as a percentage."
+
+#: ../../source/settings/main.rst:114
+msgid "SYMMETRY"
+msgstr "SYMMETRY"
+
+#: ../../source/settings/main.rst:116
+msgid "``ON`` — двусторонний рост относительно Anchor;"
+msgstr "``ON`` — two-way growth relative to the Anchor;"
+
+#: ../../source/settings/main.rst:117
+msgid "``OFF`` — однонаправленная обрезка."
+msgstr "``OFF`` — one-way trimming."
+
+#: ../../source/settings/main.rst:119
+msgid "Однонаправленная обрезка при выключенной Symmetry"
+msgstr "One-way trimming with Symmetry disabled"
+
+#: ../../source/settings/main.rst:125
+msgid "SPEED & OVERLAP"
+msgstr "SPEED & OVERLAP"
+
+#: ../../source/settings/main.rst:128
+msgid "SPEED MOD"
+msgstr "SPEED MOD"
+
+#: ../../source/settings/main.rst:130
+msgid "``TIME`` распределяет одинаковое время на группу, ``LENGTH`` учитывает её длину, ``MIX`` смешивает оба результата. Возможно не самый показательный пример, но тут видно, что на букву W в режиме ``LENGTH`` закладывается больше времени"
+msgstr "``TIME`` assigns equal time to each group, ``LENGTH`` accounts for its length, and ``MIX`` blends the two results. In the example, the letter W receives more time in ``LENGTH`` mode."
+
+#: ../../source/settings/main.rst:135
+msgid "speed-compare"
+msgstr "speed-compare"
+
+#: ../../source/settings/main.rst:141
+msgid "OVERLAP"
+msgstr "OVERLAP"
+
+#: ../../source/settings/main.rst:143
+msgid "Определяет, насколько временные диапазоны соседних групп перекрываются. При ``0%`` группы идут последовательно; увеличение значения запускает следующие группы раньше."
+msgstr "Controls how much the time ranges of adjacent groups overlap. At ``0%``, groups run sequentially; increasing the value starts subsequent groups earlier."
+
+#: ../../source/settings/main.rst:147
+msgid "режим overlap"
+msgstr "Overlap mode"
+
+#: ../../source/settings/main.rst:153
+msgid "SPEED MIX"
+msgstr "SPEED MIX"
+
+#: ../../source/settings/main.rst:155
+msgid "Доступен по смыслу режима ``MIX``:"
+msgstr "Available when using ``MIX`` mode:"
+
+#: ../../source/settings/main.rst:157
+msgid "``0%`` соответствует TIME;"
+msgstr "``0%`` corresponds to TIME;"
+
+#: ../../source/settings/main.rst:158
+msgid "``100%`` соответствует LENGTH;"
+msgstr "``100%`` corresponds to LENGTH;"
+
+#: ../../source/settings/main.rst:159
+msgid "промежуточные значения смешивают две шкалы."
+msgstr "intermediate values blend the two scales."
+
+#: ../../source/settings/main.rst:162
+msgid "TRIM BOUNCE MODE"
+msgstr "TRIM BOUNCE MODE"
+
+#: ../../source/settings/main.rst:164
+msgid "Автоматически превращает один параметр Grow в цикл роста и сжатия. При любом режиме, кроме ``NO AUTO BOUNCE``, ручной ``TRIM`` отключён."
+msgstr "Automatically turns the single Grow parameter into a growth-and-shrink cycle. Manual ``TRIM`` is disabled in every mode except ``NO AUTO BOUNCE``."
+
+#: ../../source/settings/main.rst:167
+msgid "Названия вариантов напрямую описывают первую и вторую половины цикла: ``SHRINK OUT / GROW IN``, ``SHRINK IN / GROW OUT``, ``GROW IN / SHRINK IN``, ``GROW IN / SHRINK OUT``, ``GROW OUT / SHRINK IN`` и ``GROW OUT / SHRINK OUT``."
+msgstr "The option names directly describe the first and second halves of the cycle: ``SHRINK OUT / GROW IN``, ``SHRINK IN / GROW OUT``, ``GROW IN / SHRINK IN``, ``GROW IN / SHRINK OUT``, ``GROW OUT / SHRINK IN``, and ``GROW OUT / SHRINK OUT``."
+
+#: ../../source/settings/main.rst:172
+msgid "trim bounce"
+msgstr "trim bounce"
+
+#: ../../source/settings/main.rst:178
+msgid "EXTRA"
+msgstr "EXTRA"
+
+#: ../../source/settings/main.rst:180
+msgid "SNAP EXTRAPOLATED"
+msgstr "SNAP EXTRAPOLATED"
+
+#: ../../source/settings/main.rst:181
+msgid "Показывается только для ``OPEN EXTRAPOLATED`` при включённой Symmetry. Привязывает экстраполированную границу к расчётному краю."
+msgstr "Shown only for ``OPEN EXTRAPOLATED`` with Symmetry enabled. Snaps the extrapolated boundary to the calculated edge."
+
+#: ../../source/settings/main.rst:184
+msgid "SPEED MODE"
+msgstr "SPEED MODE"
+
+#: ../../source/settings/main.rst:185
+msgid "Показывается только для ``OPEN FAKE`` при включённой Symmetry. ``MOMENTAL`` при достяжении \"разрыва\" между первой и последней точкой происходит резкий скачок. ``DEFAULT`` при достяжении \"разрыва\" между первой и последней точкой скорость движения сохраняется той же, как если бы точки были соединены."
+msgstr "Shown only for ``OPEN FAKE`` with Symmetry enabled. With ``MOMENTAL``, reaching the gap between the first and last points causes an abrupt jump. With ``DEFAULT``, movement keeps the same speed across the gap as if the points were connected."
+
+#: ../../source/settings/main.rst:189
+msgid "BORDER CORRECTION"
+msgstr "BORDER CORRECTION"
+
+#: ../../source/settings/main.rst:190
+msgid "Показывается только для ``OPEN FAKE``. В режиме ``ON`` применяется специальная коррекция крайних матриц и масштаба."
+msgstr "Shown only for ``OPEN FAKE``. When ``ON``, special correction is applied to the end matrices and scale."
+
+#: ../../source/settings/main.rst:193
+msgid "border off"
+msgstr "border off"
+
+#: ../../source/settings/main.rst:198
+msgid "border on"
+msgstr "border on"
+
+#: ../../source/settings/output.rst:2
+msgid "Направление, UV и Phong"
+msgstr "Direction, UV, and Phong"
+
+#: ../../source/settings/output.rst:5
+msgid "SEGMENT DIRECTION"
+msgstr "SEGMENT DIRECTION"
+
+#: ../../source/settings/output.rst:8
+msgid "FIX SEG DIR"
+msgstr "FIX SEG DIR"
+
+#: ../../source/settings/output.rst:10
+msgid "Автоматически сравнивает направления сегментов и разворачивает те, которые выбиваются из общей ориентации."
+msgstr "Automatically compares segment directions and reverses those that do not match the overall orientation."
+
+#: ../../source/settings/output.rst:13
+msgid "seg-dir"
+msgstr "seg-dir"
+
+#: ../../source/settings/output.rst:19
+msgid "UV"
+msgstr "UV"
+
+#: ../../source/settings/output.rst:22
+msgid "UV MODE"
+msgstr "UV MODE"
+
+#: ../../source/settings/output.rst:24
+msgid "LOCAL и GLOBAL работают аналогично режимам Scale/Rotation: либо нормализуют значения UV по видимой цепочке, либо привязывают его к общему прогрессу Grow."
+msgstr "LOCAL and GLOBAL work like the Scale/Rotation modes: they either normalize UV values over the visible chain or tie them to overall Grow progress."
+
+#: ../../source/settings/output.rst:27
+msgid "UV INVERT"
+msgstr "UV INVERT"
+
+#: ../../source/settings/output.rst:29
+msgid "OFF"
+msgstr "OFF"
+
+#: ../../source/settings/output.rst:30
+msgid "Сохраняет вычисленное направление V."
+msgstr "Preserves the calculated V direction."
+
+#: ../../source/settings/output.rst:32
+msgid "ON"
+msgstr "ON"
+
+#: ../../source/settings/output.rst:33
+msgid "Инвертирует вычисленное направление."
+msgstr "Inverts the calculated direction."
+
+#: ../../source/settings/output.rst:35
+msgid "AUTO"
+msgstr "AUTO"
+
+#: ../../source/settings/output.rst:36
+msgid "Инвертирует V автоматически, когда значение Trim становится больше Grow."
+msgstr "Automatically inverts V when Trim becomes greater than Grow."
+
+#: ../../source/settings/output.rst:38
+msgid "uv"
+msgstr "uv"
+
+#: ../../source/settings/output.rst:44
+msgid "PHONG"
+msgstr "PHONG"
+
+#: ../../source/settings/output.rst:46
+msgid "ANGLE LIMIT"
+msgstr "ANGLE LIMIT"
+
+#: ../../source/settings/output.rst:47
+msgid "Включает ограничение сглаживания по углу."
+msgstr "Enables the smoothing angle limit."
+
+#: ../../source/settings/output.rst:49
+msgid "PHONG ANGLE"
+msgstr "PHONG ANGLE"
+
+#: ../../source/settings/output.rst:50
+msgid "Максимальный угол сглаживания. Значение по умолчанию — ``60°``."
+msgstr "The maximum smoothing angle. The default is ``60°``."
+
+#: ../../source/settings/output.rst:52
+msgid "USE EDGE BREAKS"
+msgstr "USE EDGE BREAKS"
+
+#: ../../source/settings/output.rst:53
+msgid "Разрешает Phong-тегу учитывать вручную разорванные рёбра."
+msgstr "Allows the Phong tag to respect manually broken edges."
+
+#: ../../source/settings/segment-sort.rst:2
+msgid "Segment Sort"
+msgstr "Segment Sort"
+
+#: ../../source/settings/segment-sort.rst:4
+msgid "Segment Sort определяет порядок, в котором сегменты или группы (пары) сегментов будут обрабатываться. Сортировка не меняет форму исходного Path — она меняет последовательность анимации."
+msgstr "Segment Sort determines the order in which segments or segment groups (pairs) are processed. Sorting does not change the shape of the original Path; it changes the animation sequence."
+
+#: ../../source/settings/segment-sort.rst:9
+msgid "REINDEX SEGMENTS"
+msgstr "REINDEX SEGMENTS"
+
+#: ../../source/settings/segment-sort.rst:12
+msgid "SORT MODE"
+msgstr "SORT MODE"
+
+#: ../../source/settings/segment-sort.rst:15
+msgid "Исходный порядок индексов сегментов."
+msgstr "The original segment-index order."
+
+#: ../../source/settings/segment-sort.rst:17
+msgid "REVERS"
+msgstr "REVERS"
+
+#: ../../source/settings/segment-sort.rst:18
+msgid "Обратный порядок индексов."
+msgstr "Reverse index order."
+
+#: ../../source/settings/segment-sort.rst:20
+msgid "X / Y / Z"
+msgstr "X / Y / Z"
+
+#: ../../source/settings/segment-sort.rst:21
+msgid "Сортировка по координате центра сегмента вдоль выбранной мировой оси."
+msgstr "Sorts by each segment center's coordinate along the selected world axis."
+
+#: ../../source/settings/segment-sort.rst:23
+msgid "seg-axis-sort"
+msgstr "seg-axis-sort"
+
+#: ../../source/settings/segment-sort.rst:29
+msgid "Сортировка по полярному углу центра. ``CORRECTIONAL PLANE`` задаёт проекцию: XY, YZ или XZ."
+msgstr "Sorts by the polar angle of the center. ``CORRECTIONAL PLANE`` selects the projection: XY, YZ, or XZ."
+
+#: ../../source/settings/segment-sort.rst:32
+msgid "seg-circle-sort"
+msgstr "seg-circle-sort"
+
+#: ../../source/settings/segment-sort.rst:37
+msgid "OBJ"
+msgstr "OBJ"
+
+#: ../../source/settings/segment-sort.rst:38
+msgid "Сортировка по расстоянию от центра сегмента до ``REF OBJ``."
+msgstr "Sorts by distance from the segment center to ``REF OBJ``."
+
+#: ../../source/settings/segment-sort.rst:40
+msgid "seg-ref-obj-sort"
+msgstr "seg-ref-obj-sort"
+
+#: ../../source/settings/segment-sort.rst:46
+msgid "Берёт элементы с начала и конца ИСХОДНОГО списка попарно, создавая зеркальную последовательность. Т.е если изначальная последовательность сегментов имела кастомную индексацию, то данный режим может работать некорректно. Ниже пример сортировки MIRROR при изначально корректной индексации"
+msgstr "Takes items in pairs from the beginning and end of the ORIGINAL list, creating a mirrored sequence. If the original segment sequence has custom indexing, this mode may behave incorrectly. The example below shows MIRROR sorting with correct original indexing."
+
+#: ../../source/settings/segment-sort.rst:51
+msgid "seg-mirror-sort"
+msgstr "seg-mirror-sort"
+
+#: ../../source/settings/segment-sort.rst:56
+msgid "Пример того, как можно воспроизвести поведение режима MIRROR используя режим REF OBJ"
+msgstr "Example of reproducing MIRROR behavior by using REF OBJ mode"
+
+#: ../../source/settings/segment-sort.rst:58
+msgid "seg-ref-sort_fix"
+msgstr "seg-ref-sort_fix"
+
+#: ../../source/settings/segment-sort.rst:63
+msgid "INVERT"
+msgstr "INVERT"
+
+#: ../../source/settings/segment-sort.rst:64
+msgid "Разворачивает итоговый список групп после основной сортировки."
+msgstr "Reverses the final group list after the primary sort."
+
+#: ../../source/settings/segment-sort.rst:66
+msgid "REF OBJ"
+msgstr "REF OBJ"
+
+#: ../../source/settings/segment-sort.rst:67
+msgid "Показывается для ``OBJ`` и служит точкой отсчёта расстояния."
+msgstr "Shown for ``OBJ`` and used as the distance reference point."
+
+#: ../../source/settings/segment-sort.rst:70
+msgid "Показывается для ``CIRCLE`` и определяет плоскость расчёта угла."
+msgstr "Shown for ``CIRCLE`` and defines the plane used for angle calculation."
+
+#: ../../source/settings/segment-sort.rst:73
+msgid "ADVANCED SETTINGS"
+msgstr "ADVANCED SETTINGS"
+
+#: ../../source/settings/segment-sort.rst:75
+msgid "GAP"
+msgstr "GAP"
+
+#: ../../source/settings/segment-sort.rst:76
+msgid "Объединяет каждые ``GAP + 1`` соседних групп в одну временную группу. Например, ``GAP = 1`` объединяет группы попарно."
+msgstr "Combines every ``GAP + 1`` adjacent groups into one time group. For example, ``GAP = 1`` combines groups in pairs."
+
+#: ../../source/settings/segment-sort.rst:79
+msgid "seg-gap"
+msgstr "seg-gap"
+
+#: ../../source/settings/segment-sort.rst:84
+msgid "ID OFFSET"
+msgstr "ID OFFSET"
+
+#: ../../source/settings/segment-sort.rst:85
+msgid "Циклически сдвигает отсортированный список. Значения могут быть как положительные, так и отрицательные."
+msgstr "Cyclically shifts the sorted list. Values can be positive or negative."
+
+#: ../../source/settings/segment-sort.rst:87
+msgid "MIRROR DIR"
+msgstr "MIRROR DIR"
+
+#: ../../source/settings/segment-sort.rst:88
+msgid "Меняет порядок левой и правой части каждой пары в режиме ``MIRROR``. (В основном используется когда кол-во групп четное и надо изменить порядок обработки последних групп)."
+msgstr "Swaps the left and right parts of each pair in ``MIRROR`` mode. This is mainly useful when the number of groups is even and the processing order of the final groups needs to change."
+
+#: ../../source/settings/segment-sort.rst:91
+msgid "seg-mirror-dir"
+msgstr "seg-mirror-dir"
+
+#: ../../source/settings/segment-sort.rst:97
+msgid "PAIRS"
+msgstr "PAIRS"
+
+#: ../../source/settings/segment-sort.rst:99
+msgid "MERGE PAIR"
+msgstr "MERGE PAIR"
+
+#: ../../source/settings/segment-sort.rst:100
+msgid "Включает объединение близких или вручную перечисленных сегментов в общие группы до сортировки."
+msgstr "Enables merging nearby or manually listed segments into shared groups before sorting."
+
+#: ../../source/settings/segment-sort.rst:104
+msgid "SEARCH METHOD"
+msgstr "SEARCH METHOD"
+
+#: ../../source/settings/segment-sort.rst:107
+msgid "Сравнивает расстояния между центрами в нормализованной шкале относительно максимальной дистанции между сегментами."
+msgstr "Compares distances between centers on a scale normalized to the maximum distance between segments."
+
+#: ../../source/settings/segment-sort.rst:110
+msgid "REAL"
+msgstr "REAL"
+
+#: ../../source/settings/segment-sort.rst:111
+msgid "Использует реальное расстояние сцены."
+msgstr "Uses actual scene distance."
+
+#: ../../source/settings/segment-sort.rst:113
+msgid "SEARCH RADIUS LOCAL / REAL"
+msgstr "SEARCH RADIUS LOCAL / REAL"
+
+#: ../../source/settings/segment-sort.rst:114
+msgid "Порог автоматического поиска для выбранного метода."
+msgstr "The automatic-search threshold for the selected method."
+
+#: ../../source/settings/segment-sort.rst:116
+msgid "MAX NEIG"
+msgstr "MAX NEIG"
+
+#: ../../source/settings/segment-sort.rst:117
+msgid "Максимальное число ближайших соседей, добавляемых для каждого сегмента."
+msgstr "The maximum number of nearest neighbors added for each segment."
+
+#: ../../source/settings/segment-sort.rst:119
+msgid "seg-pair"
+msgstr "seg-pair"
+
+#: ../../source/settings/segment-sort.rst:125
+msgid "ADD EXTRA и PAIR IDS"
+msgstr "ADD EXTRA and PAIR IDS"
+
+#: ../../source/settings/segment-sort.rst:127
+msgid "Позволяют вручную дописать группы. Синтаксис:"
+msgstr "Lets you add groups manually. Syntax:"
+
+#: ../../source/settings/segment-sort.rst:129
+msgid "0+5, 1+2, 6+7+8"
+msgstr "0+5, 1+2, 6+7+8"
+
+#: ../../source/settings/segment-sort.rst:133
+msgid "Числа — нулевые индексы сегментов. Запятая разделяет группы, знак ``+`` объединяет индексы внутри группы. Пересекающиеся группы автоматически сливаются: ``0+1, 1+2`` превращается в одну группу ``0+1+2``."
+msgstr "Numbers are zero-based segment indices. Commas separate groups, and ``+`` joins indices within a group. Overlapping groups merge automatically: ``0+1, 1+2`` becomes a single ``0+1+2`` group."
+
+#: ../../source/settings/segment-sort.rst:137
+msgid "seg-add-extra"
+msgstr "seg-add-extra"

@@ -38,3 +38,24 @@ code.literal {
   white-space: nowrap;
 }
 
+.trimmetry-language-switcher {
+  display: flex;
+  align-items: center;
+  margin-inline: 0.35rem;
+}
+
+.trimmetry-language-switcher .form-select {
+  width: auto;
+  min-width: 6.8rem;
+  border-color: var(--pst-color-border);
+  background-color: var(--pst-color-background);
+  color: var(--pst-color-text-base);
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .trimmetry-language-switcher .form-select {
+    min-width: 4.5rem;
+    max-width: 5.5rem;
+  }
+}

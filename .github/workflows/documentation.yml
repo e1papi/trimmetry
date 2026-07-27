@@ -36,8 +36,15 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r docs/requirements.txt
 
-      - name: Build documentation
-        run: sphinx-build -W --keep-going -b html docs/source docs/_build/html
+      - name: Build English documentation
+        env:
+          DOCS_LANGUAGE: en
+        run: sphinx-build -W --keep-going -b html -d docs/_build/doctrees/en docs/source docs/_build/html
+
+      - name: Build Russian documentation
+        env:
+          DOCS_LANGUAGE: ru
+        run: sphinx-build -W --keep-going -b html -d docs/_build/doctrees/ru docs/source docs/_build/html/ru
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3

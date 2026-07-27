@@ -1,0 +1,96 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 22:10+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/installation.rst:2
+msgid "Установка"
+msgstr "Installation"
+
+#: ../../source/installation.rst:5
+msgid "Совместимость"
+msgstr "Compatibility"
+
+#: ../../source/installation.rst:7
+msgid "Эта документация подготовлена по сборке Trimmetry, установленной в **Cinema 4D 2024**. Совместимость с другими выпусками Cinema 4D зависит от Python API соответствующей версии."
+msgstr "This documentation is based on a Trimmetry build installed in **Cinema 4D 2024**. Compatibility with other Cinema 4D releases depends on the Python API of the corresponding version."
+
+#: ../../source/installation.rst:12
+msgid "Установка плагина"
+msgstr "Installing the plugin"
+
+#: ../../source/installation.rst:14
+msgid "Закройте Cinema 4D."
+msgstr "Close Cinema 4D."
+
+#: ../../source/installation.rst:15
+msgid "Скопируйте папку ``Trimmetry`` целиком в папку ``plugins`` вашей установки Cinema 4D."
+msgstr "Copy the entire ``Trimmetry`` folder into the ``plugins`` folder of your Cinema 4D installation."
+
+#: ../../source/installation.rst:17
+msgid "Убедитесь, что внутри находятся как минимум:"
+msgstr "Make sure it contains at least:"
+
+#: ../../source/installation.rst:19
+msgid ""
+"Trimmetry/\n"
+"├── Trimmetry.pyp\n"
+"├── LOGO.png\n"
+"└── res/"
+msgstr ""
+"Trimmetry/\n"
+"├── Trimmetry.pyp\n"
+"├── LOGO.png\n"
+"└── res/"
+
+#: ../../source/installation.rst:26
+msgid "Запустите Cinema 4D."
+msgstr "Start Cinema 4D."
+
+#: ../../source/installation.rst:27
+msgid "Найдите **Trimmetry** в списке генераторов или через поиск команд."
+msgstr "Find **Trimmetry** in the generator list or through command search."
+
+#: ../../source/installation.rst:29
+msgid "Пример пути для Cinema 4D 2024:"
+msgstr "Example path for Cinema 4D 2024:"
+
+#: ../../source/installation.rst:31
+msgid "C:\\Program Files\\Maxon Cinema 4D 2024\\plugins\\Trimmetry"
+msgstr "C:\\Program Files\\Maxon Cinema 4D 2024\\plugins\\Trimmetry"
+
+#: ../../source/installation.rst:36
+msgid "Если плагин не появился"
+msgstr "If the plugin does not appear"
+
+#: ../../source/installation.rst:38
+msgid "Проверьте:"
+msgstr "Check that:"
+
+#: ../../source/installation.rst:40
+msgid "скопирована ли вся папка ``res``;"
+msgstr "the entire ``res`` folder was copied;"
+
+#: ../../source/installation.rst:41
+msgid "не оказался ли файл в двойной вложенности ``Trimmetry/Trimmetry/Trimmetry.pyp``;"
+msgstr "the file is not nested as ``Trimmetry/Trimmetry/Trimmetry.pyp``;"
+
+#: ../../source/installation.rst:43
+msgid "соответствует ли сборка версии Cinema 4D;"
+msgstr "the build matches your Cinema 4D version;"
+
+#: ../../source/installation.rst:44
+msgid "есть ли сообщения Python в консоли Cinema 4D."
+msgstr "the Cinema 4D console does not show Python errors."

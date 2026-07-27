@@ -1,0 +1,156 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 22:10+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/recipes.rst:2
+msgid "Практические рецепты"
+msgstr "Practical recipes"
+
+#: ../../source/recipes.rst:5
+msgid "Последовательное появление сегментов"
+msgstr "Sequential segment reveal"
+
+#: ../../source/recipes.rst:7
+msgid "Используйте:"
+msgstr "Use:"
+
+#: ../../source/recipes.rst:9
+msgid ""
+"GROW            0% → 100%\n"
+"SPEED_MOD       TIME\n"
+"OVERLAP         0%\n"
+"SORT_MODE       BASE"
+msgstr ""
+"GROW            0% → 100%\n"
+"SPEED_MOD       TIME\n"
+"OVERLAP         0%\n"
+"SORT_MODE       BASE"
+
+#: ../../source/recipes.rst:16
+msgid "Сегменты будут появляться в исходном порядке и без перекрытия."
+msgstr "Segments will appear in their original order with no overlap."
+
+#: ../../source/recipes.rst:19
+msgid "Появление по длине"
+msgstr "Reveal by length"
+
+#: ../../source/recipes.rst:21
+msgid "Установите ``SPEED_MOD = LENGTH``. Длинные группы получат больше времени, а визуальная скорость движения границы станет равномернее."
+msgstr "Set ``SPEED_MOD = LENGTH``. Longer groups receive more time, making the visible boundary move at a more uniform speed."
+
+#: ../../source/recipes.rst:25
+msgid "Плавная передача между сегментами"
+msgstr "Smooth transitions between segments"
+
+#: ../../source/recipes.rst:27
+msgid "Увеличьте ``OVERLAP``. Начните с ``10–20%`` и подбирайте значение по количеству групп и желаемому ритму."
+msgstr "Increase ``OVERLAP``. Start with ``10–20%`` and adjust it for the number of groups and the desired rhythm."
+
+#: ../../source/recipes.rst:31
+msgid "Рост от центра наружу"
+msgstr "Growth from the center outward"
+
+#: ../../source/recipes.rst:33
+msgid ""
+"SYMMETRY        ON\n"
+"ANCHOR_MODE     CENTER\n"
+"PROPORTIONAL    ON\n"
+"SPLINE_TYPE     OPEN PROPORTIONAL"
+msgstr ""
+"SYMMETRY        ON\n"
+"ANCHOR_MODE     CENTER\n"
+"PROPORTIONAL    ON\n"
+"SPLINE_TYPE     OPEN PROPORTIONAL"
+
+#: ../../source/recipes.rst:40
+msgid "Для радиального набора попробуйте ``ANCHOR_MODE = CIRCLE``."
+msgstr "For a radial arrangement, try ``ANCHOR_MODE = CIRCLE``."
+
+#: ../../source/recipes.rst:43
+msgid "Зеркальная последовательность"
+msgstr "Mirrored sequence"
+
+#: ../../source/recipes.rst:45
+msgid ""
+"SORT_MODE       MIRROR\n"
+"MIRROR_DIR      ON или OFF\n"
+"ANCHOR_SORT_MODE MIRROR"
+msgstr ""
+"SORT_MODE       MIRROR\n"
+"MIRROR_DIR      ON or OFF\n"
+"ANCHOR_SORT_MODE MIRROR"
+
+#: ../../source/recipes.rst:51
+msgid "``ID_OFFSET`` позволяет повернуть начальную точку последовательности."
+msgstr "``ID_OFFSET`` lets you rotate the starting point of the sequence."
+
+#: ../../source/recipes.rst:54
+msgid "Бегущая видимая полоса"
+msgstr "Moving visible strip"
+
+#: ../../source/recipes.rst:56
+msgid "Анимируйте Grow и Trim с одинаковым интервалом:"
+msgstr "Animate Grow and Trim with the same interval:"
+
+#: ../../source/recipes.rst:58
+msgid ""
+"Кадр 0:    TRIM 0%,  GROW 20%\n"
+"Кадр 100:  TRIM 80%, GROW 100%"
+msgstr ""
+"Frame 0:    TRIM 0%,  GROW 20%\n"
+"Frame 100:  TRIM 80%, GROW 100%"
+
+#: ../../source/recipes.rst:63
+msgid "Для циклического движения попробуйте подходящий ``TRIM_BOUNCE_MODE``."
+msgstr "For cyclic movement, try an appropriate ``TRIM_BOUNCE_MODE``."
+
+#: ../../source/recipes.rst:66
+msgid "Скручивание при появлении"
+msgstr "Twisting during the reveal"
+
+#: ../../source/recipes.rst:68
+msgid ""
+"ROTATION_START       0°\n"
+"ROTATION_END         720°\n"
+"ROTATION_DEFORM_MODE GLOBAL"
+msgstr ""
+"ROTATION_START       0°\n"
+"ROTATION_END         720°\n"
+"ROTATION_DEFORM_MODE GLOBAL"
+
+#: ../../source/recipes.rst:74
+msgid "Дополнительно задайте Function Curve для ускорения вращения к концу."
+msgstr "Optionally, use a Function Curve to accelerate the rotation toward the end."
+
+#: ../../source/recipes.rst:77
+msgid "Объединение близких сегментов"
+msgstr "Merging nearby segments"
+
+#: ../../source/recipes.rst:79
+msgid "Включите ``MERGE PAIR``."
+msgstr "Enable ``MERGE PAIR``."
+
+#: ../../source/recipes.rst:80
+msgid "Выберите ``SEARCH METHOD = REAL``."
+msgstr "Select ``SEARCH METHOD = REAL``."
+
+#: ../../source/recipes.rst:81
+msgid "Установите небольшой ``SEARCH RADIUS REAL``."
+msgstr "Set a small ``SEARCH RADIUS REAL``."
+
+#: ../../source/recipes.rst:82
+msgid "Ограничьте ``MAX NEIG``, чтобы не получить одну большую группу."
+msgstr "Limit ``MAX NEIG`` to avoid producing a single large group."

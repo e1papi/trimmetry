@@ -1,0 +1,178 @@
+# English translations for the Trimmetry documentation.
+# Generated from the Russian source catalog.
+msgid ""
+msgstr ""
+"Project-Id-Version: Trimmetry \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 22:10+0300\n"
+"PO-Revision-Date: 2026-07-27 00:00+0300\n"
+"Last-Translator: e1papi\n"
+"Language: en\n"
+"Language-Team: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../source/troubleshooting.rst:2
+msgid "Решение проблем"
+msgstr "Troubleshooting"
+
+#: ../../source/troubleshooting.rst:5
+msgid "Trimmetry ничего не создаёт"
+msgstr "Trimmetry creates nothing"
+
+#: ../../source/troubleshooting.rst:7
+msgid "Проверьте:"
+msgstr "Check that:"
+
+#: ../../source/troubleshooting.rst:9
+msgid "Path — первый дочерний объект Trimmetry;"
+msgstr "Path is the first child of Trimmetry;"
+
+#: ../../source/troubleshooting.rst:10
+msgid "Profile — второй дочерний объект;"
+msgstr "Profile is the second child;"
+
+#: ../../source/troubleshooting.rst:11
+msgid "оба объекта можно преобразовать в сплайн;"
+msgstr "both objects can be converted to splines;"
+
+#: ../../source/troubleshooting.rst:12
+msgid "Profile содержит минимум две точки;"
+msgstr "Profile contains at least two points;"
+
+#: ../../source/troubleshooting.rst:13
+msgid "Path имеет ненулевую длину;"
+msgstr "Path has a non-zero length;"
+
+#: ../../source/troubleshooting.rst:14
+msgid "``GROW`` больше ``TRIM`` при выключенном Invert Trim."
+msgstr "``GROW`` is greater than ``TRIM`` when Invert Trim is disabled."
+
+#: ../../source/troubleshooting.rst:17
+msgid "Поля PATH и PROFILE заполнены, но результата нет"
+msgstr "PATH and PROFILE are set, but there is no result"
+
+#: ../../source/troubleshooting.rst:19
+msgid "В текущей исследованной сборке генератор получает входы через дочернюю иерархию. Используйте:"
+msgstr "In the tested build, the generator receives its inputs through the child hierarchy. Use:"
+
+#: ../../source/troubleshooting.rst:22
+msgid ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+msgstr ""
+"Trimmetry\n"
+"├── Path\n"
+"└── Profile"
+
+#: ../../source/troubleshooting.rst:29
+msgid "Сегменты растут в разные стороны"
+msgstr "Segments grow in different directions"
+
+#: ../../source/troubleshooting.rst:31
+msgid "Включите ``FIX SEG DIR``."
+msgstr "Enable ``FIX SEG DIR``."
+
+#: ../../source/troubleshooting.rst:32
+msgid "Если весь результат развернулся противоположно ожидаемому, включите ``INVERT DIR``."
+msgstr "If the entire result is oriented opposite to what you expect, enable ``INVERT DIR``."
+
+#: ../../source/troubleshooting.rst:34
+msgid "После этого проверьте ``ANCHOR SORT MODE`` и ``DIRECTION``."
+msgstr "Then check ``ANCHOR SORT MODE`` and ``DIRECTION``."
+
+#: ../../source/troubleshooting.rst:37
+msgid "Порядок сегментов выглядит случайным"
+msgstr "The segment order looks random"
+
+#: ../../source/troubleshooting.rst:39
+msgid "Для диагностики установите:"
+msgstr "For diagnostics, set:"
+
+#: ../../source/troubleshooting.rst:41
+msgid "``SORT MODE = BASE``;"
+msgstr "``SORT MODE = BASE``;"
+
+#: ../../source/troubleshooting.rst:42
+msgid "``INVERT = -``;"
+msgstr "``INVERT = -``;"
+
+#: ../../source/troubleshooting.rst:43
+msgid "``ID OFFSET = 0``;"
+msgstr "``ID OFFSET = 0``;"
+
+#: ../../source/troubleshooting.rst:44
+msgid "``GAP = 0``;"
+msgstr "``GAP = 0``;"
+
+#: ../../source/troubleshooting.rst:45
+msgid "``MERGE PAIR = OFF``."
+msgstr "``MERGE PAIR = OFF``."
+
+#: ../../source/troubleshooting.rst:47
+msgid "Затем включайте настройки по одной."
+msgstr "Then enable the settings one at a time."
+
+#: ../../source/troubleshooting.rst:50
+msgid "Слишком много сегментов объединилось"
+msgstr "Too many segments were merged"
+
+#: ../../source/troubleshooting.rst:52
+msgid "Уменьшите ``SEARCH RADIUS LOCAL/REAL`` и ``MAX NEIG``. Помните, что пересекающиеся пары транзитивно сливаются: пары ``0+1`` и ``1+2`` создают общую группу из трёх сегментов."
+msgstr "Reduce ``SEARCH RADIUS LOCAL/REAL`` and ``MAX NEIG``. Remember that overlapping pairs merge transitively: the pairs ``0+1`` and ``1+2`` create a single group of three segments."
+
+#: ../../source/troubleshooting.rst:57
+msgid "Текстура прыгает при Grow"
+msgstr "The texture jumps during Grow"
+
+#: ../../source/troubleshooting.rst:59
+msgid "``UV MODE = LOCAL`` растягивает всю текстуру по текущей видимой части;"
+msgstr "``UV MODE = LOCAL`` stretches the entire texture over the currently visible portion;"
+
+#: ../../source/troubleshooting.rst:60
+msgid "``UV MODE = GLOBAL`` сохраняет соответствие общему прогрессу."
+msgstr "``UV MODE = GLOBAL`` preserves alignment with the overall progress."
+
+#: ../../source/troubleshooting.rst:62
+msgid "Для анимируемого Grow обычно стабильнее GLOBAL. Если направление меняется из-за Trim или Bounce, попробуйте ``UV INVERT = AUTO``."
+msgstr "GLOBAL is usually more stable for an animated Grow. If the direction changes because of Trim or Bounce, try ``UV INVERT = AUTO``."
+
+#: ../../source/troubleshooting.rst:66
+msgid "На закрытом пути виден шов"
+msgstr "A seam is visible on a closed path"
+
+#: ../../source/troubleshooting.rst:68
+msgid "Убедитесь, что:"
+msgstr "Make sure that:"
+
+#: ../../source/troubleshooting.rst:70
+msgid "Path действительно закрыт;"
+msgstr "Path is actually closed;"
+
+#: ../../source/troubleshooting.rst:71
+msgid "используется закрытый Spline Type;"
+msgstr "a closed Spline Type is used;"
+
+#: ../../source/troubleshooting.rst:72
+msgid "``GROW = 100%`` и ``TRIM = 0%``;"
+msgstr "``GROW = 100%`` and ``TRIM = 0%``;"
+
+#: ../../source/troubleshooting.rst:73
+msgid "``INVERT TRIM = OFF``;"
+msgstr "``INVERT TRIM = OFF``;"
+
+#: ../../source/troubleshooting.rst:74
+msgid "Profile имеет согласованное направление точек."
+msgstr "Profile has a consistent point direction."
+
+#: ../../source/troubleshooting.rst:77
+msgid "Рывки или заломы профиля"
+msgstr "Profile jitter or kinks"
+
+#: ../../source/troubleshooting.rst:79
+msgid "Увеличьте детализацию Path, включите ``FIX SEG DIR`` и сравните ``ROTATION MODE = NORMAL`` с ``MATRIX``. Для сглаживания отображения проверьте Phong Angle и Angle Limit."
+msgstr "Increase Path detail, enable ``FIX SEG DIR``, and compare ``ROTATION MODE = NORMAL`` with ``MATRIX``. For smoother shading, check Phong Angle and Angle Limit."
