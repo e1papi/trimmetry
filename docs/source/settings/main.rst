@@ -16,6 +16,11 @@ PATH / PROFILE
    ├── Path
    └── Profile
 
+.. image:: /_static/gifs/main-settings/path-profile.gif
+   :alt: Настройка Path и Profile в Trimmetry
+   :width: 100%
+   :align: center
+
 GROW
 ~~~~
 
@@ -37,25 +42,55 @@ CLOSE DUO
    Двусторонний режим для замкнутого пути. Рост идёт от Anchor в двух
    направлениях с поддержкой разреза закрытой цепочки.
 
+   .. image:: /_static/gifs/main-settings/spline-close-duo.gif
+      :alt: Режим Close Duo
+      :width: 100%
+      :align: center
+
 CLOSE
    Закрытый путь с обычной двусторонней обрезкой.
+
+   .. image:: /_static/gifs/main-settings/spline-close.gif
+      :alt: Режим Close
+      :width: 100%
+      :align: center
 
 OPEN
    Открытая логика, в которой обе стороны используют одинаковую
    нормализованную дистанцию относительно Anchor.
 
+   .. image:: /_static/gifs/main-settings/spline-open.gif
+      :alt: Режим Open
+      :width: 100%
+      :align: center
+
 OPEN PROPORTIONAL
    Каждая сторона нормализуется по собственной доступной длине. При
    нецентральном Anchor левая и правая части достигают концов одновременно.
+
+   .. image:: /_static/gifs/main-settings/spline-open-proportional.gif
+      :alt: Режим Open Proportional
+      :width: 100%
+      :align: center
 
 OPEN EXTRAPOLATED
    Открытый режим с виртуальными крайними кольцами. Он помогает продолжить
    обрезку за вычисленную границу сегмента. Дополнительно доступен
    ``SNAP EXTRAPOLATED``.
 
+   .. image:: /_static/gifs/main-settings/spline-open-extrapolated.gif
+      :alt: Режим Open Extrapolated
+      :width: 100%
+      :align: center
+
 OPEN FAKE
    Режим с виртуальной скоростью крайних областей и сохранением разрывов
    полигонов. Для него доступны ``SPEED MODE`` и ``BORDER CORRECTION``.
+
+   .. image:: /_static/gifs/main-settings/spline-open-fake.gif
+      :alt: Режим Open Fake
+      :width: 100%
+      :align: center
 
 .. note::
 
@@ -80,6 +115,11 @@ SYMMETRY
 
 * ``ON`` — двусторонний рост относительно Anchor;
 * ``OFF`` — однонаправленная обрезка.
+
+.. image:: /_static/gifs/main-settings/symmetry-undir.gif
+   :alt: Однонаправленная обрезка при выключенной Symmetry
+   :width: 100%
+   :align: center
 
 SPEED & OVERLAP
 ---------------
