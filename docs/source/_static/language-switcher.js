@@ -48,10 +48,12 @@ const initializeLanguageSwitcher = () => {
 
   wrapper.appendChild(select);
 
-  const navbarEnd = document.querySelector(".navbar-header-items__end");
-  if (!navbarEnd) return;
-  const themeSwitcher = navbarEnd.querySelector(".theme-switch-container");
-  navbarEnd.insertBefore(wrapper, themeSwitcher);
+  const controls =
+    document.querySelector(".article-header-buttons") ||
+    document.querySelector(".navbar-header-items__end");
+  if (!controls) return;
+  const themeSwitcher = controls.querySelector(".theme-switch-container");
+  controls.insertBefore(wrapper, themeSwitcher);
 };
 
 if (document.readyState === "loading") {
