@@ -17,26 +17,61 @@ AXIS
    Выбирает Anchor по экстремуму вдоль ``AXIS``. ``MIN/MAX`` определяет,
    какая сторона используется.
 
+.. image:: /_static/gifs/anchors-sort/anchor-sort-axis.gif
+   :alt: anchor-axis-sort
+   :width: 100%
+   :align: center
+
 AXIS CENTRED
    Размещает Anchor относительно общей центральной плоскости выбранной оси,
    создавая симметричное раскрытие набора сегментов.
+
+.. image:: /_static/gifs/anchors-sort/anchor-sort-axis-center.gif
+   :alt: anchor-axis-center-sort
+   :width: 100%
+   :align: center
 
 CENTER
    Ищет положение относительно общего центра набора. Тип центра сегмента
    задаётся ``SEGMENT CENTER``.
 
+.. image:: /_static/gifs/anchors-sort/anchor-sort-center.gif
+   :alt: anchor-center-sort
+   :width: 100%
+   :align: center
+
 DISTANCE TO OBJECT
    Находит Anchor относительно ``REF OBJECT``. Точный метод выбирается
    параметром ``DISTANCE MODE``.
+
+.. image:: /_static/gifs/anchors-sort/anchor-sort-ref-obj.gif
+   :alt: anchor-ref-sort
+   :width: 100%
+   :align: center
 
 CIRCLE
    Вычисляет радиальное направление от общего центра и выбирает Anchor
    относительно круговой раскладки.
 
+.. image:: /_static/gifs/anchors-sort/anchor-sort-circle.gif
+   :alt: anchor-circle-sort
+   :width: 100%
+   :align: center
+
 SPLINORA
    Использует ``REF OBJECT`` как пользовательскую позицию разреза.
    Может смешивать специальный разрез с обычным закрытым режимом через
    ``MIX CLOSED``.
+
+.. image:: /_static/gifs/anchors-sort/anchor-sort-axis-splinora-1.gif
+   :alt: anchor-splinora-sort-1
+   :width: 100%
+   :align: center
+
+.. image:: /_static/gifs/anchors-sort/anchor-sort-axis-splinora-2.gif
+   :alt: anchor-splinora-sort-2
+   :width: 100%
+   :align: center
 
 PROPORTIONAL
 ------------
