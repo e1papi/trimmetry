@@ -137,7 +137,7 @@ OVERLAP
 При ``0%`` группы идут последовательно; увеличение значения запускает
 следующие группы раньше.
 
-.. image:: /_static/gifs/speed-settings/overlap.gif
+.. image:: /_static/gifs/speed-settings/speed-overlap.gif
    :alt: overlap
    :width: 100%
    :align: center
