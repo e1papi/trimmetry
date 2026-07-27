@@ -16,13 +16,13 @@ REVERSE
 AXIS
    Выбирает Anchor по экстремуму вдоль ``AXIS``.
 
-   MIN/MAX
-      Выбирает минимальный или максимальный экстремум в режиме ``AXIS``.
-
 .. image:: /_static/gifs/anchors-sort/anchor-sort-axis.gif
    :alt: anchor-axis-sort
    :width: 100%
    :align: center
+
+   MIN/MAX
+      Выбирает минимальный или максимальный экстремум в режиме ``AXIS``.
 
 AXIS CENTRED
    Размещает Anchor относительно общей центральной плоскости выбранной оси,
@@ -46,8 +46,10 @@ DISTANCE TO OBJECT
    Находит Anchor относительно ``REF OBJECT``. Точный метод выбирается
    параметром ``DISTANCE MODE``.
 
-   REF OBJECT
-      Объект отсчёта.
+.. image:: /_static/gifs/anchors-sort/anchor-sort-ref-obj.gif
+   :alt: anchor-ref-sort
+   :width: 100%
+   :align: center
 
    DISTANCE MODE
       PROJECTION
@@ -61,14 +63,14 @@ DISTANCE TO OBJECT
       MATRIX
          Выбирает ближайшую или дальнюю из уже построенных матриц сегмента.
 
-.. image:: /_static/gifs/anchors-sort/anchor-sort-ref-obj.gif
-   :alt: anchor-ref-sort
-   :width: 100%
-   :align: center
-
 CIRCLE
    Вычисляет радиальное направление от общего центра и выбирает Anchor
    относительно круговой раскладки.
+
+.. image:: /_static/gifs/anchors-sort/anchor-sort-circle.gif
+   :alt: anchor-circle-sort
+   :width: 100%
+   :align: center
 
    CIRCLE MODE
       ``AUTO`` определяет рабочую плоскость большинством направлений сегментов.
@@ -80,23 +82,10 @@ CIRCLE
    FIX CIRCLE
       Переключает дополнительную коррекцию радиальной ориентации.
 
-.. image:: /_static/gifs/anchors-sort/anchor-sort-circle.gif
-   :alt: anchor-circle-sort
-   :width: 100%
-   :align: center
-
 SPLINORA
    Использует ``REF OBJECT`` как пользовательскую позицию разреза.
    Может смешивать специальный разрез с обычным закрытым режимом через
    ``MIX CLOSED``.
-
-   MIX CLOSED
-      Для сегментов с валидным пользовательским
-      разрезом применяется специальный двусторонний алгоритм, для остальных —
-      обычный закрытый fallback.
-
-   REF OBJECT
-      Объект отсчёта.
 
 .. image:: /_static/gifs/anchors-sort/anchor-sort-axis-splinora-1.gif
    :alt: anchor-splinora-sort-1
@@ -107,6 +96,11 @@ SPLINORA
    :alt: anchor-splinora-sort-2
    :width: 100%
    :align: center
+
+   MIX CLOSED
+      Для сегментов с валидным пользовательским
+      разрезом применяется специальный двусторонний алгоритм, для остальных —
+      обычный закрытый fallback.
 
 PROPORTIONAL
 ------------
