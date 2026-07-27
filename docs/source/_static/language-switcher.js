@@ -1,4 +1,4 @@
-(() => {
+const initializeLanguageSwitcher = () => {
   const script = Array.from(document.scripts).find((item) =>
     new URL(item.src).pathname.endsWith("/_static/language-switcher.js")
   );
@@ -52,4 +52,12 @@
   if (!navbarEnd) return;
   const themeSwitcher = navbarEnd.querySelector(".theme-switch-container");
   navbarEnd.insertBefore(wrapper, themeSwitcher);
-})();
+};
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeLanguageSwitcher, {
+    once: true,
+  });
+} else {
+  initializeLanguageSwitcher();
+}
