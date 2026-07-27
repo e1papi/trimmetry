@@ -137,6 +137,11 @@ OVERLAP
 При ``0%`` группы идут последовательно; увеличение значения запускает
 следующие группы раньше.
 
+.. image:: /_static/gifs/speed-settings/overlap.gif
+   :alt: overlap
+   :width: 100%
+   :align: center
+
 SPEED MIX
 ~~~~~~~~~
 
@@ -156,6 +161,11 @@ TRIM BOUNCE MODE
 ``SHRINK OUT / GROW IN``, ``SHRINK IN / GROW OUT``,
 ``GROW IN / SHRINK IN``, ``GROW IN / SHRINK OUT``,
 ``GROW OUT / SHRINK IN`` и ``GROW OUT / SHRINK OUT``.
+
+.. image:: /_static/gifs/speed-settings/trim-bounce.gif
+   :alt: trim bounce
+   :width: 100%
+   :align: center
 
 EXTRA
 -----
