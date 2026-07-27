@@ -69,7 +69,7 @@ ROTATION DEFORM MODE
 прогрессу Grow.
 
 .. image:: /_static/gifs/additional-settings/additional-settings-rotation.gif
-   :alt: scale
+   :alt: rotation
    :width: 100%
    :align: center
 
